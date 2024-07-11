@@ -4,7 +4,7 @@ import json
 import pickle
 import numpy as np
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.layers import Dense, Dropout, LSTM
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
 import random
@@ -21,7 +21,7 @@ ignore_words = {"?", "!"}
 
 # Procesamiento eficiente de datos
 for intent in intents['intents']:
-    # Verificar si la clave 'patterns' existe
+    # Verificar si la clave 'patterns' y 'tag' existen
     if 'patterns' not in intent or 'tag' not in intent:
         continue  # Saltar si no existe
     
@@ -68,9 +68,9 @@ train_x, train_y = np.array(train_x), np.array(train_y)
 
 # Configuración y entrenamiento del modelo
 model = Sequential([
-    Dense(128, input_shape=(len(train_x[0]),), activation='relu'),
+    Dense(256, input_shape=(len(train_x[0]),), activation='relu'),
     Dropout(0.5),
-    Dense(64, activation='relu'),
+    Dense(128, activation='relu'),
     Dropout(0.5),
     Dense(len(train_y[0]), activation='softmax')
 ])

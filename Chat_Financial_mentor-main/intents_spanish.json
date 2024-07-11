@@ -2049,7 +2049,107 @@
               "responses": [
                   "Reconocer la importancia de la formacion profesional en contabilidad es esencial para mantenerse actualizado y competente. Los aspectos clave incluyen:\n\n1. Formacion Profesional: Los contadores en la Republica Dominicana deben obtener un titulo universitario en contabilidad y certificaciones adicionales del Instituto de Contadores Publicos Autorizados de la Republica Dominicana (ICPARD).\n\n2. Actualizacion Continua: Los profesionales contables deben participar en programas de educacion continua para mantenerse actualizados con las ultimas normas y prácticas contables, asegurando que su conocimiento y habilidades se mantengan relevantes en un entorno en constante cambio."
               ]
-          }
+          }, 
+          {
+            "tag": "Activo",
+            "patterns": [
+                "¿Qué es un activo?",
+                "¿Puedes darme ejemplos de activos?"
+            ],
+            "responses": [
+                "Un activo es cualquier recurso económico que posee un individuo o empresa, esperando que proporcione un beneficio futuro. Ejemplos de activos incluyen efectivo, propiedades, inventario, y equipos."
+            ]
+        },
+        {
+            "tag": "Pasivo",
+            "patterns": [
+                "¿Qué es un pasivo?",
+                "¿Cuáles son algunos ejemplos de pasivos?"
+            ],
+            "responses": [
+                "Un pasivo es una obligación financiera o deuda que una empresa o individuo debe pagar en el futuro. Ejemplos comunes de pasivos incluyen préstamos, hipotecas y otras deudas a pagar."
+            ]
+        },
+        {
+            "tag": "Finanzas",
+            "patterns": [
+                "¿Qué son las finanzas?",
+                "Explícame el campo de las finanzas."
+            ],
+            "responses": [
+                "Las finanzas son el estudio de cómo las personas y las empresas evalúan inversiones, captan capital, gestionan dinero y recursos, y enfrentan riesgos. Es crucial para tomar decisiones económicas informadas y para la administración eficiente de recursos."
+            ]
+        },
+        {
+            "tag": "Capital",
+            "patterns": [
+                "¿Qué es el capital?",
+                "¿Cómo se utiliza el capital en los negocios?"
+            ],
+            "responses": [
+                "El capital se refiere a los recursos financieros disponibles para uso, inversión o gasto en una empresa. Puede incluir el dinero en efectivo, las propiedades y los equipos que una empresa utiliza para generar ingresos."
+            ]
+        },
+        {
+            "tag": "Ahorro",
+            "patterns": [
+                "¿Qué significa ahorro?",
+                "¿Cómo puedo empezar a ahorrar?"
+            ],
+            "responses": [
+                "El ahorro implica apartar una porción de tus ingresos para uso futuro, reduciendo gastos innecesarios y reservando fondos para emergencias o inversiones. Empezar a ahorrar puede ser tan simple como crear un presupuesto y establecer metas de ahorro claras."
+            ]
+        },
+        {
+            "tag": "Dinero",
+            "patterns": [
+                "¿Qué es el dinero?",
+                "¿Cuál es la función principal del dinero?"
+            ],
+            "responses": [
+                "El dinero es un medio de intercambio comúnmente aceptado para transacciones y valoración de bienes y servicios. Su función principal es facilitar el comercio al eliminar las ineficiencias del trueque directo."
+            ]
+        },
+        {
+            "tag": "Consejos para aumentar ingresos",
+            "patterns": [
+                "¿Cómo puedo ganar más dinero?",
+                "¿Qué estrategias existen para aumentar mis ingresos?"
+            ],
+            "responses": [
+                "Ganar más dinero puede involucrar buscar mejores oportunidades de empleo, adquirir habilidades adicionales, o iniciar un negocio paralelo. Considera también inversiones y freelancing como formas de aumentar tus ingresos."
+            ]
+        },
+        {
+            "tag": "Consejos para enriquecerse",
+            "patterns": [
+                "¿Cómo puedo hacerme rico?",
+                "¿Qué necesito saber para acumular riqueza?"
+            ],
+            "responses": [
+                "Hacerse rico generalmente requiere paciencia, inversión inteligente, y un enfoque empresarial para generar múltiples flujos de ingresos. Educarse en finanzas personales y comenzar a invertir temprano son pasos cruciales."
+            ]
+        },
+        {
+            "tag": "Consejos para el éxito financiero",
+            "patterns": [
+                "¿Cómo puedo hacerme millonario?",
+                "¿Qué hábitos debería adoptar para ser millonario?"
+            ],
+            "responses": [
+                "Convertirse en millonario implica adoptar hábitos financieros sólidos como invertir consistentemente, gastar menos de lo que ganas, y buscar continuamente oportunidades de crecimiento financiero y personal."
+            ]
+        },
+        {
+            "tag": "Consejos para aumentar salario",
+            "patterns": [
+                "¿Cómo puedo conseguir un aumento de sueldo?",
+                "¿Qué debo hacer para que me aumenten el sueldo?"
+            ],
+            "responses": [
+                "Para conseguir un aumento de sueldo, demuestra tu valor en el trabajo mediante logros significativos, responsabilidad adicional, y manteniendo una actitud profesional que justifique la recompensa financiera. Prepara un caso sólido y discútelo durante tu evaluación de desempeño."
+            ]
+        }
       ]
             
   

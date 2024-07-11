@@ -9,11 +9,11 @@ from nltk.stem import WordNetLemmatizer
 import random
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS
+CORS(app)  # Habilitar CORS
 
 lemmatizer = WordNetLemmatizer()
 
-# Load intents, words, classes, and model
+# Cargar modelos y datos preprocesados
 with open('intents_spanish.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
@@ -46,12 +46,15 @@ def predict_class(sentence):
     return return_list
 
 def get_response(intents_list, intents_json):
+    if not intents_list:
+        return "Lo siento, no entiendo tu mensaje."
+
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if i['tag'] == tag:
-            result = random.choice(i['responses'])
-            return result
+            return random.choice(i['responses'])
+
     return "Lo siento, no entiendo tu mensaje."
 
 @app.route('/chat', methods=['POST'])
@@ -62,9 +65,6 @@ def chat():
         return jsonify({"response": "Por favor envía un mensaje válido."}), 400
 
     ints = predict_class(message)
-    if not ints:
-        return jsonify({"response": "Lo siento, no entiendo tu mensaje."}), 400
-
     res = get_response(ints, intents)
     return jsonify({"response": res})
 
