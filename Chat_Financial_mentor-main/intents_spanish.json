@@ -1,0 +1,2056 @@
+{
+  "intents": [
+       {
+          "tag": "saludo",
+          "patterns": ["Hola", "Buenos dias", "Buenas tardes"],
+          "responses": ["¡Hola! ¿Como puedo ayudarte?", "Buenos dias, ¿en que puedo asistirte?", "Buenas tardes, ¿que necesitas?"]
+      },
+      {
+        "tag": "modales",
+        "patterns": ["Hola", "como estas ", "estas listo", "estas lisa para trabajar"],
+        "responses": ["¿Como puedo ayudarte?", "Estoy bien gracias a Dios , ¿en que puedo asistirte?", "Hola estoy disponible para asistirte , ¿que necesitas?"]
+    
+      },
+      {
+          "tag": "despedida",
+          "patterns": ["Adios", "Hasta luego", "Nos vemos"],
+          "responses": ["Adios, que tengas un buen dia.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
+      },
+      {
+          "tag": "agradecimiento",
+          "patterns": ["Gracias", "Te lo agradezco", "Muy amable"],
+          "responses": ["De nada, ¡siempre a tu servicio!", "No hay de que, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aqui para lo que necesites!"]
+      },
+      {
+          "tag": "como_ahorrar_dinero",
+          "patterns": ["¿Como puedo ahorrar dinero?", "Consejos para ahorrar", "Quiero ahorrar mas"],
+          "responses": ["Puedes ahorrar dinero creando un presupuesto mensual, reduciendo gastos innecesarios y estableciendo un monto fijo para ahorrar cada mes."]
+      },
+      {
+          "tag": "gestion_tiempo",
+          "patterns": ["¿Como puedo gestionar mejor mi tiempo?", "Consejos para gestionar el tiempo", "Me cuesta administrar mi tiempo"],
+          "responses": ["Para gestionar mejor tu tiempo, utiliza una agenda para planificar tu dias, establece prioridades y elimina distracciones.", "Si te cuesta adminitrar tu tiempo, crea una agenda priorisando lo mas importante por orden"]
+      },
+      {
+          "tag": "inversiones_basicas",
+          "patterns": ["¿Donde deberia invertir mi dinero?", "Consejos para invertir", "Mejores inversiones"],
+          "responses": ["Para empezar a invertir, considera opciones seguras como fondos indexados, bonos del gobierno o cuentas de ahorro de alto rendimiento."]
+      },
+      {
+          "tag": "mejorar_credito",
+          "patterns": ["¿Como puedo mejorar mi puntaje de credito?", "Consejos para el credito", "Mejores practicas de credito"],
+          "responses": ["Para mejorar tu puntaje de credito, paga tus deudas a tiempo, manten bajos tus saldos de tarjetas de credito y no solicites nuevas lineas de credito innecesariamente."]
+      },
+      {
+          "tag": "crear_presupuesto",
+          "patterns": ["¿Como hago un presupuesto?", "Quiero hacer un presupuesto, que me consejo medas"],
+          "responses": ["Para hacer un presupuesto, lista todos tus ingresos y gastos mensuales, asigna un monto a cada categoria y sigue tu plan de gastos estrictamente."]
+      },
+      {
+          "tag": "tipos_seguro",
+          "patterns": ["¿Que tipo de seguro necesito?", "Consejos sobre seguros", "Informacion sobre seguros"],
+          "responses": ["Dependiendo de tu situacion personal, podrias necesitar un seguros de salud, vida, auto y vivienda. Evalua tus riesgos y necesidades especificas."]
+      },
+      {
+          "tag": "comprar_casa",
+          "patterns": ["¿Deberia comprar una casa ahora?", "Consejos para comprar una casa actualmente", "¿Es un buen tiempo para comprar una casa?"],
+          "responses": ["Comprar una casa depende de tus finanzas personales y del mercado inmobiliario. Asegurate de tener un buen puntaje de credito y un fondo de emergencia antes de dar este paso."]
+      },
+      {
+          "tag": "fondo_emergencia",
+          "patterns": ["¿Como preparo un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero crear un fondo de emergencia"],
+          "responses": ["Para un fondo de emergencia, ahorra entre 3 a 6 meses de gastos basicos en una cuenta separada y accesible. Contribuye regularmente a este fondo."]
+      },
+      {
+          "tag": "ahorrar_jubilacion ", 
+          "patterns": ["¿Como ahorro para la jubilacion?", "Consejos para el retiro", "Quiero planificar mi jubilacion"],
+          "responses": ["Para la jubilacion, Asegurate de estar registrado y contribuyendo a tu cuenta en la Administradora de Fondos de Pensiones (AFP). Explora planes voluntarios ofrecidos por bancos y aseguradoras. Ahorra consistentemente y ajusta tus aportaciones conforme aumenten tus ingresos. Estima tus gastos futuros. "]
+      },
+      {
+          "tag": "educacion_financiera",
+          "patterns": ["¿Donde puedo aprender sobre finanzas personales?", "Recursos de educacion financiera", "Quiero mejorar mi conocimiento financiero"],
+          "responses": ["Puedes aprender sobre finanzas personales a traves de cursos en linea, libros especializados y consultando con asesores financieros."]
+      },
+      {
+          "tag": "pagar_deudas",
+          "patterns": ["¿Como puedo salir de deudas?", "Consejos para pagar deudas", "Me cuesta pagar mis deudas"],
+          "responses": ["Para salir de deudas, crea un plan de pagos, prioriza tus deudas con mayor interes y evita acumular nuevas deudas."]
+      },
+      {
+          "tag": "usar_tarjeta_credito",
+          "patterns": ["¿Como uso una tarjeta de credito de manera responsable?", "Consejos para usar correctamente las tarjetas de credito", "Mejor uso de tarjetas de credito"],
+          "responses": ["Usa tu tarjeta de credito pagando el balance completo cada mes y no gastes mas de lo que puedes pagar."]
+      },
+      {
+          "tag": "ahorrar_meta",
+          "patterns": ["¿Como puedo ahorrar para una meta especifica?", "Consejos para metas de ahorro", "Quiero ahorrar para un objetivo"],
+          "responses": ["Para ahorrar para una meta especifica, establece un monto objetivo, un plazo y automatiza tus ahorros mensuales."]
+      },
+      {
+          "tag": "mantener_salud_financiera",
+          "patterns": ["¿Como mantengo una buena salud financiera?", "Consejos para la salud financiera", "Mejorar mi salud financiera"],
+          "responses": ["Manten una buena salud financiera controlando tus gastos, ahorrando regularmente y evitando deudas innecesarias."]
+      },
+      {
+          "tag": "hacer_plan_financiero",
+          "patterns": ["¿Como hago un plan financiero?", "Que consejos medas para una buena la planificacion financiera", "Quiero planificar mis finanzas"],
+          "responses": ["Un plan financiero debe incluir tus metas, presupuesto, estrategias de ahorro e inversion, y un plan de gestion de deudas."]
+      },
+      {
+          "tag": "empezar_invertir",
+          "patterns": ["¿Como empiezo a invertir?", "Primeros pasos para invertir", "Quiero empezar a invertir"],
+          "responses": ["Define tus objetivos financieros, tolerancia al riesgo y empieza con opciones diversificadas como fondos indexados o ETFs."]
+      },
+      {
+          "tag": "enseñar_finanzas_niños",
+          "patterns": ["¿Como enseño a mis hijos sobre finanzas?", "Educacion financiera para niños", "Quiero enseñar finanzas a mis hijos"],
+          "responses": ["Enseña a tus hijos sobre finanzas a traves de ejemplos practicos, juegos educativos y conversaciones sobre el valor del dinero."]
+      },
+      {
+          "tag": "proteger_informacion_financiera",
+          "patterns": ["¿Como protejo mi informacion financiera?", "Consejos para la seguridad financiera", "Proteger mis datos financieros"],
+          "responses": ["Usa contraseñas seguras, monitorea tus cuentas regularmente y evita compartir tus datos sensibles en linea."]
+      },
+      {
+          "tag": "financiar_negocio",
+          "patterns": ["¿Como obtengo financiamiento para mi negocio?", "Opciones de financiamiento para negocios", "Consejos para financiar un negocio"],
+          "responses": ["Para financiar tu negocio, considera prestamos bancarios, inversionistas privados o plataformas de crowdfunding."]
+      },
+      {
+          "tag": "ahorrar_vacaciones",
+          "patterns": ["¿Como puedo ahorrar para unas vacaciones?", "Consejos para ahorrar en vacaciones", "Quiero ahorrar para viajar"],
+          "responses": ["Para ahorrar para vacaciones, establece un presupuesto especifico, ahorra mensualmente y busca ofertas y descuentos para viajes."]
+      },
+      {
+          "tag": "planificar_gastos",
+          "patterns": ["¿Como planifico mis gastos mensuales?", "Consejos para planificar gastos", "Quiero planificar mis gastos"],
+          "responses": ["Lista tus ingresos y gastos fijos, asigna fondos para gastos variables y ajusta segun tus prioridades y necesidades."]
+      },
+      {
+          "tag": "evitar_deudas",
+          "patterns": ["¿Como evito acumular deudas?", "Consejos para evitar deudas", "Quiero evitar deudas"],
+          "responses": ["Evita acumular deudas gastando dentro de tus limites o por debajo de ellos, usando tarjetas de credito de manera responsable y ahorrando para compras grandes."]
+      },
+      {
+          "tag": "crear_fondo_jubilacion ",
+          "patterns": ["¿Como creo un fondo de jubilacion?", "Consejos para un fondo de jubilacion", "Quiero crear un fondo de jubilacion"],
+          "responses": ["Contribuye regularmente a planes de retiro como la AFP y ajusta tus aportaciones conforme aumenten tus ingresos."]
+      },
+      {
+        "tag": "que_es_el_plan_AFPs", 
+        "patterns": ["¿Que es el plan de retiro AFPs?", "Es bueno el plan AFPs"],
+        "responses": [" El plan de retiro AFPs en la Republica Dominicana es un sistema de pensiones obligatorio administrado por Administradoras de Fondos de Pensiones (AFPs). el plan AFPs es beneficioso porque asegura que los trabajadores formales tengan un ahorro sistemático para su jubilacion, gestionado por profesionales en inversiones. "]
+      },
+
+      {
+          "tag": "ahorrar_educacion",
+          "patterns": ["¿Como ahorro para la educacion de mis hijos?", "Consejos para ahorrar en educacion", "Quiero ahorrar para la universidad de mis hijos"],
+          "responses": ["Considera planes de ahorro educativo como el plan 529 o cuentas de ahorro de alto rendimiento y empieza a ahorrar temprano."]
+      },
+      {
+          "tag": "invertir_mercado",
+          "patterns": ["¿Como invierto en el mercado de valores?", "Consejos para invertir en acciones", "Quiero invertir en la bolsa"],
+          "responses": ["Investiga y selecciona acciones de empresas con buen rendimiento, diversifica tu portafolio y considera inversiones a largo plazo."]
+      },
+      {
+          "tag": "comprar_coche",
+          "patterns": ["¿Es buen momento para comprar un coche?", "Aconsejas comprar un coche", "¿Deberia comprar un coche nuevo?"],
+          "responses": ["Comprar un coche depende de tu situacion financiera y necesidades. Considera opciones de financiamiento y compara precios antes de decidir."]
+      },
+      {
+          "tag": "reducir_gastos",
+          "patterns": ["¿Como puedo reducir mis gastos?", "Consejos para reducir gastos", "Quiero gastar menos"],
+          "responses": ["Analiza tus gastos mensuales o semanales, identifica areas donde puedes recortar y establece un presupuesto estricto para evitar gastos innecesarios."]
+      },
+      {
+          "tag": "gestion_deudas",
+          "patterns": ["¿Como gestiono mis deudas?", "Consejos para gestionar deudas", "Quiero manejar mejor mis deudas"],
+          "responses": ["Haz una lista de tus deudas, prioriza las de mayor interes y considera opciones de consolidacion o refinanciamiento para simplificar pagos."]
+      },
+      {
+          "tag": "inversiones_seguras",
+          "patterns": ["¿Cuales son las inversiones mas seguras?", "Consejos para inversiones seguras", "Quiero invertir de forma segura"],
+          "responses": ["Las inversiones mas seguras incluyen bonos del gobierno, cuentas de ahorro aseguradas y certificados de deposito (CDs)."]
+      },
+      {
+          "tag": "aprovechar_descuentos",
+          "patterns": ["¿Como puedo aprovechar mejor los descuentos?", "Consejos para aprovechar descuentos", "Quiero ahorrar con descuentos"],
+          "responses": ["Suscribete a boletines de tiendas, usa cupones y espera promociones especiales como Black Friday para hacer tus compras."]
+      },
+      {
+          "tag": "invertir_bienes_raices",
+          "patterns": ["¿Es buena idea invertir en bienes raices?", "Consejos para invertir en bienes raices", "Quiero invertir en propiedades"],
+          "responses": ["Invertir en bienes raices puede ser rentable si investigas bien el mercado, eliges propiedades en ubicaciones estrategicas y tienes un plan de gestion claro."]
+      },
+      {
+          "tag": "mejorar_habitos_financieros",
+          "patterns": ["¿Como mejoro mis habitos financieros?", "Consejos para mejores habitos financieros", "Quiero mejorar mis habitos con el dinero"],
+          "responses": ["Mejora tus habitos financieros llevando un registro de tus gastos, ajustando tu presupuesto regularmente y estableciendo metas claras de ahorro."]
+      },
+
+      {
+        "tag": "beneficios_tarjeta_credito",
+        "patterns": ["¿Cuales son los beneficios de tener una tarjeta de credito?", "Ventajas de usar una tarjeta de credito", "Beneficios de las tarjetas de credito"],
+        "responses": ["Las tarjetas de credito ofrecen beneficios como la acumulacion de puntos, mayor seguridad en las compras, y la posibilidad de financiar compras grandes a plazos."]
+    },
+    {
+        "tag": "empezar_negocio",
+        "patterns": ["¿Cuales son los pasos para empezar un negocio?", "Como empiezo un negocio", "Pasos para iniciar un negocio"],
+        "responses": ["Para empezar un negocio, define tu idea, realiza un estudio de mercado, elabora un plan de negocios, busca financiamiento, y cumple con los requisitos legales necesarios."]
+    },
+    {
+        "tag": "ahorrar_compras_grandes",
+        "patterns": ["¿Como puedo ahorrar para compras grandes?", "Consejos para ahorrar para compras importantes", "Quiero ahorrar para una compra grande"],
+        "responses": ["Para ahorrar para compras grandes, establece un objetivo de ahorro, ajusta tu presupuesto, y ahorra regularmente en una cuenta separada."]
+    },
+    {
+        "tag": "manejar_gastos_diarios",
+        "patterns": ["¿Como manejo mejor mis gastos diarios?", "Consejos para manejar gastos diarios", "Quiero controlar mis gastos diarios"],
+        "responses": ["Para manejar mejor tus gastos diarios, lleva un registro detallado de tus gastos, ajusta tu presupuesto segun tus necesidades, y evita compras impulsivas."]
+    },
+    {
+        "tag": "invertir_fondos_mutuos",
+        "patterns": ["¿Es buena idea invertir en fondos mutuos?", "Consejos para invertir en fondos mutuos", "Quiero invertir en fondos mutuos"],
+        "responses": ["Invertir en fondos mutuos es una buena idea para diversificar tu portafolio y reducir riesgos. Investiga diferentes fondos y elige aquellos con buen historial de rendimiento."]
+    },
+    {
+        "tag": "maximizar_ahorros",
+        "patterns": ["¿Como puedo maximizar mis ahorros?", "Consejos para maximizar ahorros", "Quiero aumentar mis ahorros"],
+        "responses": ["Maximiza tus ahorros estableciendo metas claras, automatizando tus ahorros y buscando cuentas con altos rendimientos o beneficios adicionales."]
+    },
+    {
+        "tag": "invertir_cripto",
+        "patterns": ["¿Es seguro invertir en criptomonedas?", "Conseja invertir en criptomonedas", "Quiero invertir en criptomonedas"],
+        "responses": ["Invertir en criptomonedas puede ser rentable, pero tambien conlleva altos riesgos. Investiga bien antes de invertir y no pongas en riesgo mas de lo que puedes permitirte perder."]
+    },
+    {
+        "tag": "reducir_costo_vida",
+        "patterns": ["¿Como puedo reducir mi costo de vida?", "Consejos para reducir costo de vida", "Quiero bajar mi costo de vida"],
+        "responses": ["Para reducir tu costo de vida, revisa tus gastos fijos, elimina suscripciones innecesarias y busca alternativas mas economicas para tus necesidades diarias."]
+    },
+    {
+        "tag": "beneficios_ahorro_automatico",
+        "patterns": ["¿Cuales son los beneficios del ahorro automatico?", "Ventajas del ahorro automatico", "Beneficios de automatizar ahorros"],
+        "responses": ["El ahorro automatico te ayuda a mantener consistencia en tus ahorros, reduce la tentacion de gastar y facilita la acumulacion de fondos para tus metas financieras."]
+    },
+    {
+      "tag": "invertir_arte",
+      "patterns": ["¿Es buena idea invertir en arte?", "Consejos para invertir en arte", "Quiero invertir en obras de arte"],
+      "responses": ["Invertir en arte puede ser lucrativo, pero es importante investigar el mercado, comprar obras de artistas reconocidos y considerar los costos de almacenamiento y seguros."]
+  },
+  {
+      "tag": "crear_fondo_vacaciones",
+      "patterns": ["¿Como creo un fondo para vacaciones?", "Consejos para ahorrar para vacaciones", "Quiero ahorrar para un viaje"],
+      "responses": ["Para crear un fondo para vacaciones, establece un objetivo de ahorro, planifica con anticipacion y ahorra una cantidad fija regularmente."]
+  },
+  {
+      "tag": "evitar_fraude_tarjeta_credito",
+      "patterns": ["¿Como evito el fraude con mi tarjeta de credito?", "Consejos para prevenir fraude con tarjeta de credito", "Quiero proteger mi tarjeta de credito"],
+      "responses": ["Para evitar el fraude con tu tarjeta de credito, utiliza contraseñas seguras, monitorea tus estados de cuenta regularmente y evita compartir tu informacion en sitios no seguros o a terceros."]
+  },
+  {
+      "tag": "invertir_inmuebles_comerciales",
+      "patterns": ["¿Es buena idea invertir en inmuebles comerciales?", "Consejos para invertir en inmuebles comerciales", "Quiero invertir en propiedades comerciales", "Es buena idea invertir en inmuebles comerciales"],
+      "responses": ["Invertir en inmuebles comerciales puede generar altos rendimientos si eliges ubicaciones estrategicas y mantienes buenos inquilinos. Considera los costos de mantenimiento y administracion."]
+  },
+  {
+      "tag": "crear_fondo_emergencia",
+      "patterns": ["¿Como puedo crear un fondo de emergencia?", "Consejos para un fondo de emergencia", "Quiero tener un fondo de emergencia"],
+      "responses": ["Crea un fondo de emergencia ahorrando entre 3 a 6 meses de tus gastos basicos en una cuenta separada y accesible."]
+  },
+  {
+      "tag": "reducir_deuda_tarjeta_credito",
+      "patterns": ["¿Como puedo reducir la deuda de mi tarjeta de credito?", "Consejos para pagar deudas de tarjeta de credito", "Quiero pagar mi tarjeta de credito"],
+      "responses": ["Para reducir la deuda de tu tarjeta de credito, prioriza los pagos con mayor interes, paga mas del minimo y evita hacer nuevas compras hasta saldar la deuda."]
+  },
+  {
+      "tag": "beneficios_ahorro_educacion",
+      "patterns": ["¿Cuales son los beneficios de ahorrar para la educacion?", "Ventajas de un fondo de ahorro para educacion", "Beneficios de ahorrar para la educacion"],
+      "responses": ["Ahorrar para la educacion ofrece la tranquilidad de tener fondos disponibles para cubrir los costos educativos, y algunas cuentas de ahorro educativo tienen beneficios fiscales."]
+  },
+  {
+      "tag": "invertir_etfs",
+      "patterns": ["¿Es buena idea invertir en ETFs?", "Consejos para invertir en ETFs", "Quiero invertir en fondos cotizados"],
+      "responses": ["Invertir en ETFs es una buena manera de diversificar tu portafolio con costos bajos y exposicion a diferentes mercados y sectores."]
+  },
+      {
+        "tag": "estrategias_inversion",
+        "patterns": ["¿Que estrategias de inversion debo considerar?", "Dime algunas estrategias para invertir", "Estrategias de inversion para principiantes"],
+        "responses": ["Considera estrategias de inversion diversificadas, invierte a largo plazo y evalua tu tolerancia al riesgo antes de tomar decisiones."]
+      },
+      {
+        "tag": "seguros_necesarios",
+        "patterns": ["¿Que seguros son esenciales?", "¿Que tipo de seguros deberia tener?", "Seguros imprescindibles"],
+        "responses": ["Es esencial contar con seguro de salud, seguro de vida, seguro de automovil y seguro de hogar, dependiendo de tus circunstancias personales y activos."]
+      },
+      {
+        "tag": "rentabilidad_fondos_inversion",
+        "patterns": ["¿Como se mide la rentabilidad de los fondos de inversion?", "Rentabilidad en fondos de inversion", "¿Que rentabilidad esperar de un fondo de inversion?"],
+        "responses": ["La rentabilidad de los fondos de inversion se mide por el porcentaje de ganancia o perdida sobre la inversion original, considerando el rendimiento y los dividendos."]
+      },
+      {
+        "tag": "ahorro_eficiente",
+        "patterns": ["¿Como puedo ahorrar de manera eficiente?", "Metodos eficientes para ahorrar", "¿Como maximizo mi ahorro?"],
+        "responses": ["Para ahorrar de manera eficiente, automatiza tus ahorros, revisa regularmente tus gastos y ajusta tu presupuesto para maximizar el ahorro."]
+      },
+      {
+        "tag": "costos_ocultos_compras",
+        "patterns": ["¿Que costos ocultos debo considerar al comprar algo?", "Costos ocultos en compras", "¿Como identificar costos ocultos?"],
+        "responses": ["Al comprar, considera costos adicionales como impuestos, tarifas de envio, mantenimiento y otros gastos no incluidos en el precio de etiqueta."]
+      },
+      {
+        "tag": "cuentas_retiro",
+        "patterns": ["¿Que tipos de cuentas de retiro existen?", "Cuentas de retiro recomendadas", "Opciones de cuentas para la jubilacion"],
+        "responses": ["Existen diversas cuentas de retiro como la AFP, SDSS, Planes de Ahorro Privado(Servicio ofrecido por bancos) y planes de pension, cada una con sus propias ventajas fiscales y condiciones."]
+      },
+      {
+        "tag": "evaluar_asesor_financiero",
+        "patterns": ["¿Como evaluar a un asesor financiero?", "Elegir un asesor financiero", "Criterios para seleccionar asesor financiero"],
+        "responses": ["Evalua un asesor financiero basado en sus credenciales, experiencia, estructura de tarifas y opiniones de clientes anteriores."]
+      },
+      {
+        "tag": "inversiones_altas_rentabilidades",
+        "patterns": ["¿Que inversiones ofrecen altas rentabilidades?", "Inversiones con alta rentabilidad", "¿Donde invertir para altos retornos?"],
+        "responses": ["Inversiones como el mercado de valores, bienes raices y ciertas criptomonedas pueden ofrecer altas rentabilidades, pero tambien implican mayores riesgos."]
+      },
+      {
+        "tag": "plan_financiero_personal",
+        "patterns": ["¿Como creo un plan financiero personal?", "Elaborar un plan financiero", "Pasos para un plan financiero personal"],
+        "responses": ["Identifica tus metas financieras, evalua tus ingresos y gastos, establece un presupuesto, y planifica inversiones y ahorros para alcanzar tus objetivos."]
+      },
+      {
+        "tag": "gestionar_gastos_impulsivos",
+        "patterns": ["¿Como manejo gastos impulsivos?", "Controlar compras por impulso", "Evitar gastos impulsivos"],
+        "responses": ["Para manejar gastos impulsivos, establece un presupuesto, evita usar tarjetas de credito para compras diarias, y espera 24 horas antes de realizar compras grandes."]
+      },
+      {
+        "tag": "invertir_oro_plata",
+        "patterns": ["¿Es buena idea invertir en oro y plata?", "Invertir en metales preciosos", "¿Deberia comprar oro o plata?"],
+        "responses": ["Invertir en oro y plata puede ser una buena forma de diversificar tu portafolio y protegerte contra la inflacion, pero considera la volatilidad de los precios de estos metales."]
+      },
+      {
+        "tag": "finanzas_pareja",
+        "patterns": ["¿Como gestionar las finanzas en pareja?", "Finanzas conjuntas con mi pareja", "Consejos para finanzas de pareja"],
+        "responses": ["Para gestionar finanzas en pareja, comunica claramente tus metas y presupuestos, establece cuentas conjuntas y personales, y planea juntos para el futuro."]
+      },
+      {
+        "tag": "seguridad_financiera_futuro",
+        "patterns": ["¿Como aseguro mi seguridad financiera para el futuro?", "Planificar la seguridad financiera", "Construir un futuro financiero seguro"],
+        "responses": ["Asegura tu futuro financiero ahorrando e invirtiendo consistentemente, diversificando tus inversiones y planificando para la jubilacion y emergencias."]
+      },
+      {
+        "tag": "beneficios_inversion_indexada",
+        "patterns": ["¿Cuales son los beneficios de la inversion indexada?", "Inversion indexada", "Ventajas de los fondos indexados"],
+        "responses": ["La inversion indexada ofrece bajo costo, diversificacion automatica y rendimientos consistentes al seguir un indice de mercado, como el S&P 500."]
+      },
+      {
+        "tag": "riesgos_inversion",
+        "patterns": ["¿Cuales son los riesgos de invertir?", "Identificar riesgos en inversiones", "Riesgos comunes en inversiones"],
+        "responses": ["Los riesgos de invertir incluyen la perdida de capital, volatilidad del mercado, riesgo de liquidez y riesgos especificos del sector o empresa."]
+      },
+      {
+        "tag": "planificar_gastos_futuros",
+        "patterns": ["¿Como planifico para gastos futuros?", "Prepararse para gastos grandes", "Planificacion financiera para gastos futuros"],
+        "responses": ["Para planificar gastos futuros, identifica tus necesidades a largo plazo, establece fondos de ahorro especificos y ajusta tu presupuesto para acumular fondos."]
+      },
+      {
+        "tag": "invertir_startups",
+        "patterns": ["¿Es buena idea invertir en startups?", "Invertir en empresas emergentes", "Riesgos y beneficios de invertir en startups"],
+        "responses": ["Invertir en startups puede ofrecer altos retornos, pero tambien implica riesgos elevados. Investiga la empresa, el mercado y su potencial de crecimiento antes de invertir."]
+      },
+      {
+        "tag": "importancia_diversificacion",
+        "patterns": ["¿Por que es importante diversificar inversiones?", "Beneficios de la diversificacion inversiones", "¿Como diversificar mi portafolio?"],
+        "responses": ["La diversificacion reduce el riesgo al esparcir inversiones en diferentes activos, sectores y geografias, protegiendo tu portafolio contra volatilidades especificas."]
+      },
+      {
+        "tag": "ahorro_energia",
+        "patterns": ["¿Como puedo ahorrar en mi factura de energia?", "Reducir costos de energia", "Consejos para ahorrar electricidad"],
+        "responses": ["Para ahorrar en energia, utiliza aparatos eficientes ode bajo consumo, ajusta tu termostato de la nevera, y apaga luces y equipos cuando no los estes usando."]
+      },
+      {
+        "tag": "finanzas_salud_mental",
+        "patterns": ["¿Como afectan las finanzas en la salud mental?", "Impacto de las finanzas en el bienestar", "Relacion entre dinero y salud mental"],
+        "responses": ["Las finanzas pueden afectar significativamente la salud mental, causando estres o ansiedad si no se gestionan bien. Es crucial mantener un equilibrio y buscar asesoria si es necesario."]
+      },
+      {
+        "tag": "ahorrar_cambio_climatico",
+        "patterns": ["¿Como puedo ahorrar dinero y contribuir contra el cambio climatico?", "Ahorrar dinero y ayudar al planeta", "Economia verde y ahorro"],
+        "responses": ["Para ahorrar dinero y combatir el cambio climatico, invierte en productos sostenibles, reduce el uso de recursos y apoya empresas con practicas ecologicas."]
+      },
+      {
+        "tag": "preparar_crisis_economica",
+        "patterns": ["¿Como me preparo para una crisis economica?", "Preparativos para recesion", "Estrategias financieras para tiempos de crisis"],
+        "responses": ["Para prepararte para una crisis economica, fortalece tu fondo de emergencia, diversifica tus inversiones y reduce gastos no esenciales."]
+      },
+      {
+        "tag": "financiamiento_educacion",
+        "patterns": ["¿Que opciones de financiamiento existen para la educacion?", "Como financiar estudios superiores", "Ayudas financieras para estudiantes"],
+        "responses": ["Las opciones de financiamiento educativo incluyen becas, prestamos estudiantiles, ayudas gubernamentales y programas de trabajo-estudio."]
+      },
+      {
+        "tag": "seguros_viaje",
+        "patterns": ["¿Debo contratar un seguro de viaje?", "Beneficios del seguro de viaje", "¿Es necesario un seguro para viajar?"],
+        "responses": ["Contratar un seguro de viaje es recomendable para cubrir imprevistos como enfermedades, accidentes o cancelaciones durante tus viajes."]
+      },
+      {
+        "tag": "estrategias_reduccion_deudas",
+        "patterns": ["¿Cuales son las mejores estrategias para reducir deudas?", "Como salir del endeudamiento", "Plan para reducir mis deudas"],
+        "responses": ["Para reducir deudas, considera estrategias como el metodo de la bola de nieve (pagar deudas de menor a mayor) o el metodo avalancha (priorizar deudas con mayor interes)."]
+      },
+      {
+        "tag": "planificacion_sucesoria",
+        "patterns": ["¿Que es la planificacion sucesoria?", "Importancia de la planificacion sucesoria", "Como preparar un plan sucesorio"],
+        "responses": ["La planificacion sucesoria implica preparar documentos legales como testamentos y fideicomisos para gestionar y distribuir tu patrimonio despues de tu fallecimiento."]
+      },
+      {
+        "tag": "invertir_bonos",
+        "patterns": ["¿Es buena idea invertir en bonos?", "Invertir en bonos gubernamentales", "Beneficios de los bonos como inversion"],
+        "responses": ["Invertir en bonos puede ser una opcion segura y estable, especialmente los bonos gubernamentales, que ofrecen retornos fijos y menos riesgo que las acciones."]
+      },
+      {
+        "tag": "educacion_financiera_escuelas",
+        "patterns": ["¿Deberia enseñarse educacion financiera en las escuelas?", "Importancia de la educacion financiera temprana", "Finanzas en el curriculo escolar"],
+        "responses": ["La educacion financiera en las escuelas es crucial para preparar a los jovenes para gestionar su dinero de manera efectiva y tomar decisiones informadas."]
+      },
+      {
+        "tag": "evitar_multas_financieras",
+        "patterns": ["¿Como puedo evitar multas financieras?", "Evitar costos por demoras o multas", "Consejos para no incurrir en multas"],
+        "responses": ["Para evitar multas financieras, paga tus cuentas a tiempo, revisa los terminos de contratos y manten informada a tu institucion financiera sobre cualquier cambio."]
+      },
+      {
+        "tag": "ahorrar_tecnologia",
+        "patterns": ["¿Como ahorro en compras tecnologicas?", "Reducir gastos en tecnologia", "Consejos para comprar tecnologia"],
+        "responses": ["Para ahorrar en tecnologia, espera ofertas y descuentos, considera comprar modelos anteriores o reacondicionados, y evalua realmente tus necesidades antes de comprar."]
+      },
+      {
+        "tag": "fraude_financiero_online",
+        "patterns": ["¿Como protegerme del fraude financiero online?", "Evitar estafas en internet", "Seguridad financiera en linea"],
+        "responses": ["Protege tu informacion financiera usando contraseñas fuertes, verificando la seguridad de sitios web antes de realizar transacciones y no compartiendo datos sensibles."]
+      },
+      {
+        "tag": "negociar_salarios",
+        "patterns": ["¿Como puedo negociar un salario mas alto?", "Estrategias para negociar mi salario", "Consejos para negociacion salarial"],
+        "responses": ["Para negociar un salario mas alto, prepara argumentos basados en tu valor y contribuciones, conoce el rango salarial de tu posicion y muestra flexibilidad en otros beneficios."]
+      },
+      {
+        "tag": "cambios_fiscales",
+        "patterns": ["¿Como me afectan los cambios fiscales?", "Impacto de las reformas fiscales", "Adaptarse a cambios en la legislacion fiscal"],
+        "responses": ["Los cambios fiscales pueden afectar tus ingresos disponibles, obligaciones tributarias y estrategias de inversion. Es importante estar informado y consultar con un asesor fiscal."]
+      },
+      {
+        "tag": "seguridad_social",
+        "patterns": ["¿Que debo saber sobre la Seguridad Social?", "Beneficios de la Seguridad Social", "Como funciona la Seguridad Social"],
+        "responses": ["La Seguridad Social proporciona beneficios de jubilacion, discapacidad, y sobreviviente, basados en tus años de trabajo y contribuciones."]
+      },
+      {
+        "tag": "tarjetas_credito_debito",
+        "patterns": ["¿Cual es la diferencia entre tarjeta de credito y debito?", "Tarjeta de credito vs debito", "Beneficios de credito y debito"],
+        "responses": ["Las tarjetas de credito te permiten pedir prestado y pagar mas tarde, mientras que las de debito deducen dinero directamente de tu cuenta bancaria."]
+      },
+      {
+        "tag": "prestamos_hipotecarios",
+        "patterns": ["¿Como funcionan los prestamos hipotecarios?", "Obtener un prestamo para casa", "Tipos de hipotecas disponibles"],
+        "responses": ["Los prestamos hipotecarios te permiten financiar la compra de una propiedad pagando un anticipo y luego cuotas mensuales con intereses a lo largo de varios años."]
+      },
+      {
+        "tag": "mejorar_historial_crediticio",
+        "patterns": ["¿Como puedo mejorar mi historial crediticio?", "Mejorar mi calificacion de credito", "Construir un buen credito"],
+        "responses": ["Mejora tu historial crediticio haciendo pagos a tiempo, utilizando un porcentaje bajo de tu credito disponible y manteniendo cuentas de credito antiguas."]
+      },
+      {
+        "tag": "inversiones_sostenibles",
+        "patterns": ["¿Que son las inversiones sostenibles?", "Invertir de manera sostenible", "Opciones de inversion ecologica"],
+        "responses": ["Las inversiones sostenibles buscan generar impacto social o ambiental positivo ademas de retornos financieros, como en energias renovables o empresas socialmente responsables."]
+      },
+      {
+        "tag": "beneficios_fiscales_ahorro",
+        "patterns": ["¿Que beneficios fiscales puedo obtener al ahorrar?", "Incentivos fiscales para ahorrar", "Ahorro y ventajas fiscales"],
+        "responses": ["Algunos planes de ahorro ofrecen beneficios fiscales como deducciones o exenciones tributarias, especialmente en cuentas de retiro y educacion."]
+      },
+      {
+        "tag": "riesgos_inversion_inmobiliaria",
+        "patterns": ["¿Cuales son los riesgos de invertir en inmuebles?", "Riesgos de la inversion inmobiliaria", "Invertir en bienes raices con precaucion"],
+        "responses": ["Los riesgos de invertir en inmuebles incluyen la falta de liquidez, fluctuaciones del mercado, costos de mantenimiento y posibles vacantes en las propiedades."]
+      },
+      {
+        "tag": "inversion_bolsa_valores",
+        "patterns": ["¿Como empiezo a invertir en la bolsa de valores?", "Pasos para invertir en bolsa", "Iniciar en el mercado de valores"],
+        "responses": ["Para invertir en la bolsa, abre una cuenta de corretaje, educa sobre el mercado de valores, y comienza con inversiones pequeñas y diversificadas."]
+      },
+      {
+        "tag": "seguros_para_negocios",
+        "patterns": ["¿Que seguros necesito para mi negocio?", "Tipos de seguros comerciales", "Seguros imprescindibles para empresas"],
+        "responses": ["Tu negocio puede necesitar seguros como responsabilidad civil, propiedad comercial, vehiculos comerciales y compensacion a trabajadores, dependiendo de la naturaleza del negocio."]
+      },
+      {
+        "tag": "finanzas_responsables",
+        "patterns": ["¿Como practico finanzas responsables?", "Ser financieramente responsable", "Habitos de finanzas responsables"],
+        "responses": ["Practica finanzas responsables creando y siguiendo un presupuesto, evitando deudas innecesarias, y planificando para el futuro con ahorros e inversiones."]
+      },
+      {
+        "tag": "comprar_vivienda",
+        "patterns": ["¿Que debo considerar al comprar una vivienda?", "Consejos para la compra de un hogar", "Preparativos para comprar casa"],
+        "responses": ["Al comprar una vivienda, considera tu presupuesto, el tamaño y ubicacion de la propiedad, los costos de mantenimiento y los impuestos a la propiedad."]
+      },
+      {
+        "tag": "cuentas_bancarias_extranjero",
+        "patterns": ["¿Debo abrir cuentas bancarias en el extranjero?", "Beneficios y riesgos de cuentas en el extranjero", "Cuentas bancarias internacionales"],
+        "responses": ["Abrir cuentas bancarias en el extranjero puede ofrecer beneficios como diversificacion y conveniencia en viajes, pero considera las regulaciones fiscales y legales."]
+      },
+      {
+        "tag": "planificar_retiro",
+        "patterns": ["¿Como planifico mi retiro?", "Estrategias para un retiro seguro", "Preparacion para la jubilacion"],
+        "responses": ["Planifica tu retiro determinando tus necesidades futuras, maximizando aportes a cuentas de retiro y considerando inversiones que generen ingresos estables."]
+      },
+      {
+        "tag": "ahorrar_comida",
+        "patterns": ["¿Como puedo ahorrar dinero en alimentos?", "Reducir gastos en comestibles", "Consejos para ahorrar en la cocina"],
+        "responses": ["Para ahorrar en alimentos, compra en bulk, utiliza cupones, prepara comidas en casa y evita desperdicios planificando tus comidas."]
+      },
+      {
+        "tag": "invertir_educacion_hijos",
+        "patterns": ["¿Como invierto en la educacion de mis hijos?", "Financiar estudios de los hijos", "Ahorro para la educacion superior"],
+        "responses": ["Para invertir en la educacion de tus hijos, considera planes de ahorro educativos, becas y prestamos estudiantiles, y comienza a ahorrar a tiempo."]
+      },
+      {
+        "tag": "impuestos_inversiones",
+        "patterns": ["¿Como afectan los impuestos a mis inversiones?", "Impuestos sobre ganancias de capital", "Planificacion fiscal de inversiones"],
+        "responses": ["Los impuestos pueden reducir tus rendimientos de inversion. Considera estrategias como cuentas de retiro con ventajas fiscales y ten en cuenta el tiempo de tenencia de tus inversiones."]
+      },
+      {
+        "tag": "prestamos_personales",
+        "patterns": ["¿Cuando debo considerar un prestamo personal?", "Usos de prestamos personales", "Consejos para prestamos personales"],
+        "responses": ["Considera un prestamo personal para gastos grandes o consolidacion de deudas. Compara tasas de interes y terminos, y asegurate de tener un plan de pago."]
+      },
+      {
+        "tag": "gestion_financiera_familia",
+        "patterns": ["¿Como gestiono las finanzas familiares?", "Finanzas del hogar", "Planificar el presupuesto familiar"],
+        "responses": ["Gestiona las finanzas familiares estableciendo un presupuesto comun, discutiendo metas financieras y asignando responsabilidades para gastos e inversiones."]
+      },
+      {
+        "tag": "invertir_futuros",
+        "patterns": ["¿Que son los futuros y Como puedo invertir en ellos?", "Invertir en contratos futuros", "Mercado de futuros"],
+        "responses": ["Los futuros son contratos para comprar o vender activos en una fecha futura a un precio acordado. Es un mercado volatil y se recomienda para inversores experimentados."]
+      },
+      {
+        "tag": "evitar_impago_credito",
+        "patterns": ["¿Como evito el impago de mi credito?", "Prevenir la morosidad en creditos", "Consejos para no caer en impago"],
+        "responses": ["Para evitar el impago de creditos, asegurate de entender los terminos de tu prestamo, realiza pagos a tiempo y comunicate con tu prestamista si enfrentas dificultades financieras."]
+      },
+      {
+        "tag": "comparar_seguros",
+        "patterns": ["¿Como comparo diferentes seguros?", "Elegir el mejor seguro", "Comparacion de polizas de seguros"],
+        "responses": ["Para comparar seguros, evalua las coberturas ofrecidas, compara costos de las primas, revisa las exclusiones y considera la reputacion del proveedor."]
+      },
+      {
+        "tag": "inversiones_renovables",
+        "patterns": ["¿Es buena idea invertir en energias renovables?", "Invertir en el sector de energias verdes", "Oportunidades de inversion en renovables"],
+        "responses": ["Invertir en energias renovables puede ser prometedor debido a la creciente demanda de soluciones sostenibles y apoyo gubernamental, aunque es importante considerar los riesgos especificos del sector."]
+      },
+      {
+        "tag": "ahorro_impuestos",
+        "patterns": ["¿Como puedo ahorrar en impuestos?", "Estrategias para reducir la carga fiscal", "Consejos fiscales para ahorrar dinero"],
+        "responses": ["Para ahorrar en impuestos, aprovecha todas las deducciones y creditos fiscales disponibles, invierte en cuentas de retiro y planifica tus ventas de activos."]
+      },
+      {
+        "tag": "tarjetas_credito_viajes",
+        "patterns": ["¿Cuales son las mejores tarjetas de credito para viajar?", "Tarjetas de credito con beneficios de viaje", "Elegir tarjeta para viajeros"],
+        "responses": ["Las mejores tarjetas de credito para viajar ofrecen beneficios como millas aereas, acceso a salas VIP en aeropuertos y seguros de viaje sin costo adicional."]
+      },
+      {
+        "tag": "preparar_jubilacion_anticipada",
+        "patterns": ["¿Como me preparo para una jubilacion anticipada?", "Planear para retirarse temprano", "Estrategias para jubilacion anticipada"],
+        "responses": ["Para una jubilacion anticipada, maximiza tus ahorros, invierte agresivamente mientras joven, y planifica metodos para acceder a fondos antes de la edad de jubilacion sin penalizaciones."]
+      },
+      {
+        "tag": "recuperar_credito_danado",
+        "patterns": ["¿Como puedo recuperar un credito dañado?", "Reparar historial crediticio", "Mejorar credito despues de problemas"],
+        "responses": ["Para recuperar un credito dañado, comienza por revisar tu reporte de credito, corrige errores, paga deudas pendientes y usa nuevas lineas de credito responsablemente."]
+      },
+      {
+        "tag": "finanzas_divorcio",
+        "patterns": ["¿Como manejar las finanzas durante un divorcio?", "Separacion de bienes en divorcio", "Consejos financieros para el divorcio"],
+        "responses": ["Durante un divorcio, es crucial hacer un inventario completo de activos y deudas conjuntas, establecer un presupuesto individual y buscar asesoramiento legal y financiero."]
+      },
+      {
+        "tag": "invertir_dividendos",
+        "patterns": ["¿Como funcionan las inversiones que generan dividendos?", "Invertir para recibir dividendos", "Acciones con dividendos"],
+        "responses": ["Las inversiones que generan dividendos incluyen acciones de empresas que pagan una parte de sus ganancias regularmente. Son una fuente de ingresos pasivos, pero es importante evaluar la estabilidad de la empresa."]
+      },
+      {
+        "tag": "ahorro_plan_college",
+        "patterns": ["¿Que es un plan 529?", "Ahorro para la universidad con plan 529", "Beneficios de los planes 529 para educacion"],
+        "responses": ["Un plan 529 es un plan de ahorro para la educacion que ofrece beneficios fiscales. Puedes usar los fondos para pagar matricula, libros y otros gastos educativos calificados."]
+      },
+      {
+        "tag": "evaluar_fondos_inversion",
+        "patterns": ["¿Como evaluo fondos de inversion para elegir los mejores?", "Seleccionar fondos de inversion", "Criterios para evaluar fondos"],
+        "responses": ["Evalua fondos de inversion basandote en su rendimiento historico, tarifas y comisiones, estrategia de inversion y calificaciones de riesgo."]
+      },
+      {
+        "tag": "ahorro_combustible",
+        "patterns": ["¿Como puedo ahorrar en combustible?", "Reducir gastos de gasolina", "Consejos para economizar combustible"],
+        "responses": ["Para ahorrar combustible, manten tu vehiculo bien afinado, usa neumaticos con la presion adecuada, y evita aceleraciones y frenados bruscos."]
+      },
+      {
+        "tag": "beneficios_cuentas_retiro",
+        "patterns": ["¿Cuales son los beneficios de las cuentas de retiro?", "Ventajas de ahorrar para la jubilacion", "Por que abrir una cuenta de retiro"],
+        "responses": ["Las cuentas de retiro ofrecen beneficios fiscales, como deducciones tributarias y crecimiento de inversiones libre de impuestos, ayudando a maximizar tus ahorros para la jubilacion."]
+      },
+      {
+        "tag": "invertir_bienes_raices_internacionales",
+        "patterns": ["¿Deberia invertir en bienes raices internacionales?", "Invertir en propiedades en el extranjero", "Riesgos de bienes raices internacionales"],
+        "responses": ["Invertir en bienes raices internacionales puede ofrecer diversificacion y potencial de crecimiento, pero implica desafios como barreras legales y diferencias culturales."]
+      },
+      {
+        "tag": "gestion_riesgos_financieros",
+        "patterns": ["¿Como gestiono los riesgos financieros?", "Estrategias para manejar riesgos financieros", "Reducir riesgos en finanzas"],
+        "responses": ["Gestiona riesgos financieros diversificando tus inversiones, estableciendo un fondo de emergencia, y utilizando seguros para proteger tus activos."]
+      },
+      {
+        "tag": "prestamos_estudiantes_internacionales",
+        "patterns": ["¿Existen prestamos para estudiantes internacionales?", "Financiamiento para estudiantes de otros paises", "Prestamos para educacion internacional"],
+        "responses": ["Existen prestamos para estudiantes internacionales ofrecidos por instituciones privadas y programas especificos, aunque suelen requerir un aval o co-firmante en el pais de estudio."]
+      },
+      {
+        "tag": "ahorrar_gas_natural",
+        "patterns": ["¿Como puedo reducir mi consumo de gas natural?", "Ahorrar en la factura de gas", "Consejos para usar menos gas"],
+        "responses": ["Para reducir el consumo de gas natural, aisla tu hogar, ajusta el termostato a una temperatura moderada y realiza mantenimiento regular de tu sistema de calefaccion."]
+      },
+      {
+        "tag": "seguros_para_jovenes",
+        "patterns": ["¿Que seguros deberian considerar los jovenes?", "Seguros para menores de 30", "Polizas recomendadas para jovenes"],
+        "responses": ["Los jovenes deberian considerar seguros de salud, de automoviles, y de vida, especialmente si tienen dependientes o deudas significativas."]
+      },
+      {
+        "tag": "consolidar_deudas",
+        "patterns": ["¿Que es la consolidacion de deudas?", "Consolidar mis deudas", "Como funciona la consolidacion de deudas"],
+        "responses": ["La consolidacion de deudas implica combinar varias deudas en un solo prestamo con una tasa de interes mas baja, facilitando la gestion y el pago."]
+      },
+      {
+        "tag": "seguros_mascotas",
+        "patterns": ["¿Vale la pena tener un seguro para mascotas?", "Seguros para animales domesticos", "Beneficios del seguro de mascotas"],
+        "responses": ["Un seguro para mascotas puede ser valioso para cubrir costos de tratamientos veterinarios, especialmente en casos de enfermedad o accidentes."]
+      },
+      {
+        "tag": "invertir_empresa_privada",
+        "patterns": ["¿Como invierto en una empresa privada?", "Invertir en negocios no cotizados", "Participar en capital privado"],
+        "responses": ["Invertir en una empresa privada generalmente requiere ser un inversor acreditado. Implica comprar acciones o participaciones y asumir un riesgo significativo."]
+      },
+      {
+        "tag": "comprar_seguros_online",
+        "patterns": ["¿Es seguro comprar seguros por internet?", "Comprar polizas de seguro online", "Riesgos de seguros en linea"],
+        "responses": ["Comprar seguros en linea puede ser seguro si usas sitios de compañias aseguradoras reconocidas y verificas su autenticidad y politicas de privacidad."]
+      },
+      {
+        "tag": "retirar_dinero_retiro_anticipado",
+        "patterns": ["¿Como retiro dinero de mi fondo de retiro antes de tiempo?", "Penalidades por retiro anticipado", "Acceder a fondos de jubilacion temprano"],
+        "responses": ["Retirar dinero de un fondo de retiro antes de la edad permitida puede conllevar impuestos y penalidades. Considera alternativas como prestamos contra tu retiro o retiros por dificultades."]
+      },
+      {
+        "tag": "invertir_acuicultura",
+        "patterns": ["¿Es buena idea invertir en acuicultura?", "Invertir en la industria del mar", "Potencial de la acuicultura como inversion"],
+        "responses": ["Invertir en acuicultura puede ser prometedor debido a la creciente demanda de productos marinos sostenibles, pero requiere comprension de los riesgos ecologicos y regulatorios."]
+      },
+      {
+        "tag": "ahorro_comunitario",
+        "patterns": ["¿Que es el ahorro comunitario?", "Beneficios de ahorrar en grupo", "Como funciona el ahorro grupal"],
+        "responses": ["El ahorro comunitario implica grupos de personas que ahorran dinero juntas, lo cual puede proporcionar un sistema de apoyo y mejorar las tasas de ahorro de los miembros."]
+      },
+      {
+        "tag": "comprar_auto_usado",
+        "patterns": ["¿Que debo considerar al comprar un auto usado?", "Consejos para comprar vehiculos de segunda mano", "Inspeccionar un auto usado antes de comprar"],
+        "responses": ["Al comprar un auto usado, revisa el historial del vehiculo, realiza una inspeccion mecanica, compara precios y prueba el auto antes de comprarlo."]
+      },
+      {
+        "tag": "seguros_estudiantes",
+        "patterns": ["¿Los estudiantes necesitan algun tipo de seguro?", "Seguros recomendados para estudiantes", "Polizas de seguros para la vida universitaria"],
+        "responses": ["Los estudiantes pueden beneficiarse de seguros de salud, de propiedad personal y de responsabilidad civil, especialmente si viven fuera del hogar o estudian en el extranjero."]
+      },
+      {
+        "tag": "finanzas_despues_jubilacion",
+        "patterns": ["¿Como gestiono mis finanzas despues de jubilarme?", "Finanzas en la jubilacion", "Manejo de dinero en la tercera edad"],
+        "responses": ["Gestiona tus finanzas en la jubilacion estableciendo un presupuesto basado en ingresos fijos, invirtiendo conservadoramente y planificando gastos de salud a largo plazo."]
+      },
+      {
+        "tag": "invertir_infraestructura",
+        "patterns": ["¿Es buena idea invertir en infraestructura?", "Invertir en proyectos de construccion", "Oportunidades en infraestructura"],
+        "responses": ["Invertir en infraestructura puede ofrecer retornos estables y contribuir al desarrollo economico, pero requiere entender los grandes ciclos economicos y politicos."]
+      },
+      {
+        "tag": "proteger_inversiones_fraude",
+        "patterns": ["¿Como protejo mis inversiones de fraudes?", "Evitar estafas en inversiones", "Seguridad para mis inversiones"],
+        "responses": ["Protege tus inversiones verificando la credibilidad de asesores y plataformas de inversion, diversificando tus activos y manteniendote informado sobre tus inversiones."]
+      },
+      {
+        "tag": "invertir_vehiculos_alternativos",
+        "patterns": ["¿Que son los vehiculos de inversion alternativos?", "Invertir fuera de bolsa", "Opciones de inversion no tradicionales"],
+        "responses": ["Los vehiculos de inversion alternativos incluyen bienes raices, arte, antigüedades y criptomonedas, ofreciendo diversificacion fuera de los mercados de acciones y bonos."]
+      },
+      {
+        "tag": "ahorrar_sin_presupuesto",
+        "patterns": ["¿Puedo ahorrar dinero sin un presupuesto estricto?", "Ahorrar de manera flexible", "Metodos de ahorro sin presupuesto"],
+        "responses": ["Aunque un presupuesto ayuda, puedes ahorrar sin uno estableciendo transferencias automaticas a una cuenta de ahorros y reduciendo gastos innecesarios."]
+      },
+      {
+        "tag": "cambiar_carreras_finanzas",
+        "patterns": ["¿Como cambio de carrera sin afectar mis finanzas?", "Transicion de carrera y finanzas", "Manejo financiero al cambiar de empleo"],
+        "responses": ["Al cambiar de carrera, ahorra un fondo de emergencia, reduce gastos, y busca formacion o certificaciones que aumenten tus oportunidades en el nuevo campo."]
+      },
+      {
+        "tag": "comprar_seguros_salud",
+        "patterns": ["¿Como elijo el mejor seguro de salud?", "Comparar planes de salud", "Seleccionar un seguro medico"],
+        "responses": ["Elige un seguro de salud comparando coberturas, costos, red de proveedores y limites de gastos, considerando tus necesidades medicas y presupuesto."]
+      },
+      {
+        "tag": "educacion_financiera_adultos",
+        "patterns": ["¿Donde pueden los adultos aprender mas sobre finanzas?", "Educacion financiera para adultos", "Recursos de aprendizaje financiero para mayores"],
+        "responses": ["Los adultos pueden aprender sobre finanzas en cursos en linea, talleres comunitarios, libros de finanzas y mediante asesoria financiera profesional."]
+      },
+      {
+        "tag": "gestion_deudas_hipotecarias",
+        "patterns": ["¿Como gestiono mejor mi deuda hipotecaria?", "Manejar deudas de la hipoteca", "Consejos para prestamos hipotecarios"],
+        "responses": ["Gestiona tu deuda hipotecaria asegurando una tasa de interes competitiva, haciendo pagos adicionales cuando posible y refinanciando bajo condiciones favorables."]
+      },
+      {
+        "tag": "seguros_desempleo",
+        "patterns": ["¿Que es un seguro de desempleo?", "Beneficios del seguro contra desempleo", "Como funciona el seguro de desempleo"],
+        "responses": ["El seguro de desempleo proporciona ingresos temporales a trabajadores desempleados que perdieron su trabajo sin culpa propia, ayudando a estabilizar sus finanzas."]
+      },
+      {
+        "tag": "finanzas_freelancers",
+        "patterns": ["¿Como manejan su dinero los freelancers?", "Finanzas para trabajadores independientes", "Consejos financieros para freelancers"],
+        "responses": ["Los freelancers deben gestionar sus finanzas estableciendo un fondo de emergencia, pagando impuestos trimestrales y diversificando sus fuentes de ingresos."]
+      },
+      {
+        "tag": "invertir_fondos_cerrados",
+        "patterns": ["¿Que son los fondos de inversion cerrados?", "Invertir en fondos cerrados", "Caracteristicas de los fondos cerrados"],
+        "responses": ["Los fondos de inversion cerrados tienen un numero fijo de acciones y suelen operar en mercados especificos o nichos, ofreciendo oportunidades y riesgos distintos a los fondos abiertos."]
+      },
+      {
+        "tag": "prestamos_consolidacion",
+        "patterns": ["¿Que son los prestamos de consolidacion de deudas?", "Beneficios de consolidar deudas", "Como funciona la consolidacion de prestamos"],
+        "responses": ["Los prestamos de consolidacion de deudas permiten combinar multiples deudas en un solo prestamo con una tasa de interes mas baja, simplificando el pago mensual."]
+      },
+      {
+        "tag": "optimizar_inversiones",
+        "patterns": ["¿Como optimizo mis inversiones?", "Mejorar el rendimiento de inversiones", "Estrategias para optimizar portafolio"],
+        "responses": ["Optimiza tus inversiones evaluando regularmente el rendimiento, rebalanceando tu portafolio para mantener tu estrategia de riesgo y diversificando tus activos."]
+      },
+      {
+        "tag": "financiamiento_proyectos",
+        "patterns": ["¿Como se financia un proyecto grande?", "Opciones de financiamiento para proyectos", "Conseguir fondos para proyectos importantes"],
+        "responses": ["Financia proyectos grandes mediante prestamos, emision de bonos, crowdfunding o buscando inversores que esten interesados en el potencial de retorno del proyecto."]
+      },
+      {
+        "tag": "reestructuracion_deudas",
+        "patterns": ["¿Que es la reestructuracion de deudas?", "Como reestructurar mis deudas", "Alternativas para reestructurar deudas"],
+        "responses": ["La reestructuracion de deudas implica negociar con acreedores para modificar los terminos de tus deudas, como reducir la tasa de interes o extender el periodo de pago."]
+      },
+      {
+        "tag": "cambios_regulacion_financiera",
+        "patterns": ["¿Como me afectan los cambios en la regulacion financiera?", "Impacto de nuevas leyes financieras", "Adaptarse a cambios regulatorios"],
+        "responses": ["Los cambios en la regulacion financiera pueden afectar Como operas tus cuentas, tus estrategias de inversion y tus obligaciones fiscales. Es vital mantenerse informado y adaptarse a las nuevas normas."]
+      },
+      {
+        "tag": "planificacion_financiera_familias",
+        "patterns": ["¿Como hacen las familias para planificar sus finanzas?", "Planificacion financiera familiar", "Consejos para finanzas familiares"],
+        "responses": ["Las familias pueden planificar sus finanzas estableciendo presupuestos, ahorrando para la educacion y la jubilacion, y asegurando adecuada proteccion financiera a traves de seguros."]
+      },
+      {
+        "tag": "invertir_fondos_patrimoniales",
+        "patterns": ["¿Que son los fondos patrimoniales?", "Invertir en un fondo patrimonial", "Caracteristicas de los fondos patrimoniales"],
+        "responses": ["Los fondos patrimoniales son fondos de inversion que buscan preservar el capital y proporcionar un crecimiento constante. Son populares entre instituciones y individuos que buscan estabilidad."]
+      },
+      {
+        "tag": "ahorrar_gastos_medicos",
+        "patterns": ["¿Como puedo ahorrar en gastos medicos?", "Reducir costos de salud", "Consejos para economizar en medicina"],
+        "responses": ["Para ahorrar en gastos medicos, utiliza seguros de salud, compara precios de tratamientos y medicamentos, y aprovecha cuentas de gastos flexibles o de ahorros de salud."]
+      },
+      {
+        "tag": "seguros_vida",
+        "patterns": ["¿Que debo considerar al elegir un seguro de vida?", "Tipos de seguros de vida", "Seleccionar el mejor seguro de vida"],
+        "responses": ["Al elegir un seguro de vida, considera tu situacion financiera, las necesidades de tus dependientes, la cobertura ofrecida y las primas del seguro."]
+      },
+      {
+        "tag": "educacion_financiera_jovenes",
+        "patterns": ["¿Como enseño finanzas a los jovenes?", "Educacion financiera para adolescentes", "Inculcar habitos financieros en jovenes"],
+        "responses": ["Enseña finanzas a los jovenes a traves de ejemplos practicos, como administrar una mesada, ahorrar para objetivos y comprender los conceptos basicos de ingresos y gastos."]
+      },
+      {
+        "tag": "beneficios_fondos_cotizados",
+        "patterns": ["¿Cuales son los beneficios de los fondos cotizados?", "Ventajas de invertir en ETFs", "Por que elegir fondos cotizados"],
+        "responses": ["Los fondos cotizados (ETFs) ofrecen diversificacion, bajo costo, facilidad de compra y venta, y transparencia en sus holdings."]
+      },
+      {
+        "tag": "gestionar_herencia",
+        "patterns": ["¿Como gestiono una herencia?", "Manejo de bienes heredados", "Consejos para administrar una herencia"],
+        "responses": ["Al gestionar una herencia, considera los impuestos aplicables, paga cualquier deuda del estamento, y planea Como invertir o usar los bienes heredados de manera prudente."]
+      },
+      {
+        "tag": "riesgos_financieros_negocio",
+        "patterns": ["¿Cuales son los riesgos financieros al iniciar un negocio?", "Identificar riesgos en nuevos negocios", "Precauciones financieras para emprendedores"],
+        "responses": ["Los riesgos financieros al iniciar un negocio incluyen falta de fondos, fluctuaciones de ingresos, gastos inesperados y problemas de flujo de caja."]
+      },
+      {
+        "tag": "invertir_tecnologia",
+        "patterns": ["¿Es buena idea invertir en tecnologia?", "Invertir en sector tecnologico", "Riesgos y beneficios de la inversion tecnologica"],
+        "responses": ["Invertir en tecnologia puede ofrecer altos retornos debido a la innovacion y crecimiento del sector, pero tambien conlleva riesgos de volatilidad y obsolescencia."]
+      },
+      {
+        "tag": "plan_retiro_personalizado",
+        "patterns": ["¿Como creo un plan de retiro personalizado?", "Planificacion individual para la jubilacion", "Construir un plan de retiro a medida"],
+        "responses": ["Crea un plan de retiro personalizado evaluando tus necesidades futuras, estimando gastos, y eligiendo las opciones de inversion y ahorro que mejor se ajusten a tus objetivos y estilo de vida."]
+      },
+      {
+        "tag": "invertir_sin_riesgo",
+        "patterns": ["¿Existen inversiones sin riesgo?", "Opciones de inversion segura", "Invertir con garantia de capital"],
+        "responses": ["No existen inversiones completamente sin riesgo, pero opciones como los bonos del Tesoro y cuentas de ahorro aseguradas ofrecen bajo riesgo a cambio de rendimientos mas moderados."]
+      },
+      {
+        "tag": "creditos_refinanciamiento",
+        "patterns": ["¿Que es el refinanciamiento de creditos?", "Como refinanciar mis deudas", "Beneficios del refinanciamiento"],
+        "responses": ["El refinanciamiento de creditos implica reemplazar un prestamo existente por uno nuevo con mejores condiciones, como una tasa de interes mas baja, para reducir los pagos mensuales y mejorar el manejo de deudas."]
+      },
+      {
+        "tag": "gestion_deudas_tarjetas",
+        "patterns": ["¿Como gestiono la deuda de mis tarjetas de credito?", "Reducir deuda de tarjeta", "Consejos para manejar deuda de credito"],
+        "responses": ["Para gestionar deudas de tarjetas de credito, intenta pagar mas que el minimo cada mes, negocia tasas de interes mas bajas y considera transferir saldos a tarjetas con 0% de interes de introduccion."]
+      },
+      {
+        "tag": "ahorrar_compras_navidenas",
+        "patterns": ["¿Como puedo ahorrar en compras navideñas?", "Presupuesto para festividades", "Economizar en gastos de Navidad"],
+        "responses": ["Para ahorrar en compras navideñas, establece un presupuesto claro, compra con antelacion aprovechando ofertas y considera hacer regalos caseros o significativos en lugar de gastar mucho dinero."]
+      },
+      {
+        "tag": "invertir_fondos_mixtos",
+        "patterns": ["¿Que son los fondos mixtos y Como funcionan?", "Invertir en fondos balanceados", "Caracteristicas de los fondos mixtos"],
+        "responses": ["Los fondos mixtos o balanceados invierten en una combinacion de acciones, bonos y otros activos. Estan diseñados para proporcionar un equilibrio entre riesgo y retorno, adecuados para inversores que buscan diversificacion."]
+      },
+      {
+        "tag": "preparar_financieramente_crisis",
+        "patterns": ["¿Como me preparo financieramente para una crisis?", "Finanzas en tiempos de crisis", "Reserva de emergencia"],
+        "responses": ["Preparate financieramente para una crisis ahorrando en un fondo de emergencia, diversificando tus inversiones y manteniendo tus gastos bajo control para adaptarte a cambios economicos imprevistos."]
+      },
+      {
+        "tag": "estrategias_ahorro_largo_plazo",
+        "patterns": ["¿Cuales son las mejores estrategias de ahorro a largo plazo?", "Ahorrar a largo plazo", "Construir ahorros para el futuro"],
+        "responses": ["Las mejores estrategias de ahorro a largo plazo incluyen maximizar contribuciones a cuentas de retiro, invertir en fondos indexados o ETFs, y revisar y ajustar tus inversiones periodicamente."]
+      },{
+        "tag": "seguros_cobertura_amplia",
+        "patterns": ["¿Que es un seguro de cobertura amplia?", "Diferencias entre seguros de cobertura amplia y basica", "Beneficios del seguro de cobertura amplia"],
+        "responses": ["El seguro de cobertura amplia ofrece proteccion mas extensa que la basica, cubriendo una variedad mas amplia de riesgos y a menudo incluyendo servicios adicionales."]
+      },
+      {
+        "tag": "finanzas_responsables_empresa",
+        "patterns": ["¿Como implemento finanzas responsables en mi empresa?", "Practicas de finanzas sostenibles para negocios", "Gestion financiera etica en empresas"],
+        "responses": ["Implementa finanzas responsables en tu empresa adoptando practicas eticas, transparentes y sostenibles, considerando el impacto social y ambiental de tus decisiones financieras."]
+      },
+      
+          {
+            "tag": "empatia_perdida",
+            "patterns": ["Estoy muy triste, perdi mucho dinero en una inversion"],
+            "responses": ["Lamento mucho escuchar eso. Las perdidas pueden ser realmente desafiantes. ¿Hay algo en lo que pueda ayudarte a planificar tu proximo paso?"]
+          },
+          {
+            "tag": "alegria_logro",
+            "patterns": ["¡Acabo de pagar toda mi deuda!", "¡Acabo de pagar toda mi deuda!"],
+            "responses": ["¡Eso es increible! Felicitaciones por alcanzar este gran hito financiero. ¿Tienes algun otro objetivo en mente ahora?"]
+          },
+          {
+            "tag": "consuelo_preocupacion",
+            "patterns": ["Estoy preocupado por no tener suficiente para la jubilacion"],
+            "responses": ["Entiendo tus preocupaciones, y estas haciendo bien en pensar en ello ahora. Vamos a ver Como podemos mejorar tu plan de ahorro para la jubilacion."]
+          },
+          {
+            "tag": "motivacion_desanimo",
+            "patterns": ["No creo que pueda ahorrar suficiente dinero", "No tengo suficiente dinero para ahorrar"],
+            "responses": ["No te desanimes, todos empezamos en algun lugar. Puedo ayudarte a revisar tu presupuesto y encontrar formas de ahorrar, sin importar cuan pequeñas sean."]
+          },
+          {
+            "tag": "entusiasmo_meta_ahorro",
+            "patterns": ["He alcanzado la mitad de mi meta de ahorro"],
+            "responses": ["¡Eso es genial! Estas a mitad de camino, y cada paso cuenta. Sigue asi y pronto alcanzaras tu meta completa."]
+          },
+          {
+            "tag": "apoyo_decision",
+            "patterns": ["¿Deberia invertir en este momento?", "¿Deberia invertir en este hoy en dia?"],
+            "responses": ["Es importante que te sientas seguro con tus decisiones de inversion. Podemos revisar tus opciones y considerar tus objetivos financieros para tomar la mejor decision."]
+          },
+          {
+            "tag": "celebracion_logro_financiero",
+            "patterns": ["Finalmente ahorre suficiente para mi fondo de emergencia"],
+            "responses": ["¡Felicitaciones! Has logrado un importante pilar de seguridad financiera. ¿Estas pensando en establecer una nueva meta de ahorro ahora?"]
+          },
+          {
+            "tag": "solidaridad_error",
+            "patterns": ["Creo que cometi un error con mi presupuesto este mes"],
+            "responses": ["Todos cometemos errores, lo importante es aprender de ellos. Vamos a revisar tu presupuesto juntos y ajustar lo que sea necesario."]
+          },
+          {
+            "tag": "aliento_nuevo_proyecto",
+            "patterns": ["Estoy pensando en iniciar un negocio", "Estoy pensando en convertime en un emprendedor", "Estoy pensando un nuevo emprendimiento"],
+            "responses": ["¡Esa es una iniciativa emocionante! Estoy aqui para ayudarte a planificar y asegurarme de que tienes una base financiera solida para comenzar."]
+          },
+          {
+            "tag": "simpatia_frustracion",
+            "patterns": ["Me frustra no entender estos terminos financieros"],
+            "responses": ["Puede ser complicado, pero estas haciendo un gran esfuerzo por aprender. ¿Te gustaria que explique algunos terminos en particular?"]
+          },
+          
+              {
+                "tag": "confusion_general",
+                "patterns": ["No entiendo lo que dices"],
+                "responses": ["Parece que no fui claro. Permiteme intentarlo de nuevo o explicarlo de otra manera."]
+              },
+              {
+                "tag": "sin_datos",
+                "patterns": ["¿Que datos tienes sobre las tendencias del mercado futuro?"],
+                "responses": ["Actualmente no tengo informacion sobre futuras tendencias del mercado. ¿Puedo ayudarte con algo mas especifico o actual?"]
+              },
+              {
+                "tag": "sin_informacion_especifica",
+                "patterns": ["Dime mas sobre esta inversion especifica que no encuentro"],
+                "responses": ["No tengo detalles sobre esa inversion especifica. ¿Quieres saber mas sobre tipos similares de inversiones?"]
+              },
+              {
+                "tag": "confusion_detalle",
+                "patterns": ["No comprendo los detalles que me diste"],
+                "responses": ["Lo siento si los detalles no fueron claros. Vamos a desglosarlos mejor."]
+              },
+              {
+                "tag": "solicitud_incomprensible",
+                "patterns": ["asdfghjkl"],
+                "responses": ["No pude entender lo que necesitas. ¿Puedes reformular tu pregunta?"]
+              },
+              {
+                "tag": "sin_acceso_datos",
+                "patterns": ["¿Puedes darme el ultimo precio de la accion XYZ?"],
+                "responses": ["Lo siento, no tengo acceso en tiempo real a datos del mercado de valores. Te recomiendo verificar una fuente confiable como un sitio de noticias financieras."]
+              },
+              {
+                "tag": "respuesta_indefinida",
+                "patterns": ["Cuentame sobre un tema que no conoces"],
+                "responses": ["No tengo informacion sobre ese tema. Siempre estoy aprendiendo, pero algunas areas estan fuera de mi alcance actual."]
+              },
+              {
+                "tag": "error_desconocido",
+                "patterns": ["Esto no tiene sentido"],
+                "responses": ["Parece que algo no salio bien. Vamos a intentarlo de nuevo."]
+              },
+              {
+                "tag": "solicitud_vaga",
+                "patterns": ["Hablame de finanzas"],
+                "responses": ["Las finanzas son un tema amplio. ¿Podrias especificar un poco mas sobre que aspecto de las finanzas te interesa?"]
+              },
+              {
+                "tag": "sin_respuesta",
+                "patterns": ["¿Que opinas sobre la politica economica de Marte?"],
+                "responses": ["Eso esta fuera de mi conocimiento actual. ¿Hay algo mas terrenal en lo que pueda asistirte?"]
+              },
+              {
+                "tag": "ambiguedad",
+                "patterns": ["¿Que debo hacer con mi dinero?"],
+                "responses": ["Esa es una pregunta muy amplia. Podriamos comenzar revisando tus metas financieras y tu situacion actual."]
+              },
+              {
+                "tag": "sin_informacion_actualizada",
+                "patterns": ["Dame las ultimas noticias sobre la economia"],
+                "responses": ["No tengo acceso directo a las noticias mas recientes. Te recomiendo consultar un sitio web de noticias confiable para obtener la informacion mas actual."]
+              },
+              {
+                "tag": "peticion_irrealizable",
+                "patterns": ["Quiero que inviertas mi dinero ahora mismo"],
+                "responses": ["No puedo realizar inversiones directamente. Sin embargo, puedo ofrecerte consejos sobre Como y donde podrias invertir."]
+              },
+              {
+                "tag": "sin_comprender",
+                "patterns": ["No entiendo lo que acabo de leer"],
+                "responses": ["Vamos a revisarlo juntos. Dime que parte no fue clara y te ayudare a entenderla mejor."]
+              },
+              {
+                "tag": "sin_capacidad_respuesta",
+                "patterns": ["¿Puedes predecir el futuro de la economia?"],
+                "responses": ["No puedo predecir el futuro, pero puedo ofrecer analisis basados en datos e informacion historica. ¿Te interesa alguna tendencia en particular?"]
+              },
+              {
+                "tag": "fuera_de_alcance",
+                "patterns": ["Dime si debo comprar esta casa"],
+                "responses": ["Decidir comprar una casa es una decision significativa y personal. Deberias considerar hablar con un asesor financiero o un agente inmobiliario para discutir todos los factores involucrados."]
+              },
+              {
+                "tag": "respuesta_insuficiente",
+                "patterns": ["Tu respuesta no me ayuda"],
+                "responses": ["Lamento escuchar eso. Vamos a intentar abordarlo de otra manera. ¿Que mas necesitas saber?"]
+              },
+              {
+                "tag": "solicitud_no_reconocida",
+                "patterns": ["zkxjcv"],
+                "responses": ["Parece que hubo un error en la entrada. ¿Puedes repetir o clarificar tu pregunta?"]
+              },
+              {
+                "tag": "respuesta_inapropiada",
+                "patterns": ["Eso no es lo que pregunte"],
+                "responses": ["Mis disculpas por eso. Intentemos de nuevo. ¿Puedes repetir o especificar mas tu pregunta?"]
+              },
+              {
+                "tag": "sin_conocimiento_especifico",
+                "patterns": ["Cuentame sobre la historia del dinero en Antartida"],
+                "responses": ["No tengo informacion especifica sobre la historia del dinero en Antartida. ¿Hay otra area geografica o tema que te interese?"]
+              },{
+                "tag": "Acciones",
+                "patterns": ["¿Que son las acciones?"],
+                "responses": ["Las acciones son titulos valores que representan una parte proporcional del capital social de una empresa."]
+              },{
+                "tag": "Bonos",
+                "patterns": ["¿Que son los bonos?"],
+                "responses": ["Los bonos son instrumentos de deuda emitidos por entidades para financiarse, que pagan intereses periodicos y devuelven el principal al vencimiento."]
+              },
+              {
+                "tag": "Cartera de inversion",
+                "patterns": ["¿Que es una cartera de inversion?"],
+                "responses": ["Una cartera de inversion es un conjunto de activos financieros diversificados que posee un inversor."]
+              },
+              {
+                "tag": "Diversificacion",
+                "patterns": ["¿Que es la diversificacion?"],
+                "responses": ["La diversificacion es una estrategia de inversion que reduce el riesgo distribuyendo las inversiones entre distintos activos."]
+              },
+              {
+                "tag": "Apalancamiento",
+                "patterns": ["¿Que es el apalancamiento?"],
+                "responses": ["El apalancamiento es el uso de deuda para aumentar el potencial de retorno de una inversion."]
+              },
+              {
+                "tag": "Amortizacion",
+                "patterns": ["¿Que es la amortizacion?"],
+                "responses": ["La amortizacion es el proceso de reducir una deuda mediante pagos periodicos hasta su eliminacion."]
+              },
+              {
+                "tag": "Valor presente neto",
+                "patterns": ["¿Que es el valor presente neto?"],
+                "responses": ["El valor presente neto es una medida de la rentabilidad de una inversion, calculada como el valor actual de los flujos de caja netos."]
+              },
+              {
+                "tag": "Tasa interna de retorno",
+                "patterns": ["¿Que es la tasa interna de retorno?"],
+                "responses": ["La tasa interna de retorno es la tasa de descuento que iguala el valor presente neto de una inversion a cero."]
+              },
+              {
+                "tag": "Mercado de capitales",
+                "patterns": ["¿Que es el mercado de capitales?"],
+                "responses": ["El mercado de capitales es donde se negocian instrumentos financieros de largo plazo, como acciones y bonos."]
+              },{
+                "tag": "Mercado de dinero",
+                "patterns": ["¿Que es el mercado de dinero?"],
+                "responses": ["El mercado de dinero es donde se negocian instrumentos financieros a corto plazo, como letras del Tesoro y certificados de deposito."]
+              },
+              {
+                "tag": "Depreciacion",
+                "patterns": ["¿Que es la depreciacion?"],
+                "responses": ["La depreciacion es la reduccion del valor de un activo a lo largo del tiempo debido al desgaste y la obsolescencia."]
+              },
+              {
+                "tag": "Credito",
+                "patterns": ["¿Que es el credito?"],
+                "responses": ["El credito es la capacidad de un individuo o empresa para obtener bienes o servicios antes de pagar por ellos."]
+              },
+              {
+                "tag": "Debito",
+                "patterns": ["¿Que es el debito?"],
+                "responses": ["El debito es un cargo que se realiza a una cuenta, reduciendo su saldo."]
+              },
+              {
+                "tag": "Tasa de interes",
+                "patterns": ["¿Que es la tasa de interes?"],
+                "responses": ["La tasa de interes es el porcentaje que se cobra por el uso del dinero prestado o invertido."]
+              },
+              {
+                "tag": "Arbitraje",
+                "patterns": ["¿Que es el arbitraje?"],
+                "responses": ["El arbitraje es la compra y venta simultánea de un activo en diferentes mercados para aprovechar diferencias de precios."]
+              },
+              {
+                "tag": "Cobertura",
+                "patterns": ["¿Que es la cobertura?"],
+                "responses": ["La cobertura es una estrategia para reducir el riesgo financiero mediante el uso de instrumentos derivados."]
+              },
+              {
+                "tag": "Riesgo sistemático",
+                "patterns": ["¿Que es el riesgo sistemático?"],
+                "responses": ["El riesgo sistemático es el riesgo inherente a todo el mercado o sector, no diversificable."]
+              },
+              {
+                "tag": "Riesgo no sistemático",
+                "patterns": ["¿Que es el riesgo no sistemático?"],
+                "responses": ["El riesgo no sistemático es el riesgo especifico de una empresa o industria, diversificable."]
+              },
+              {
+                "tag": "indice bursátil",
+                "patterns": ["¿Que es un indice bursátil?"],
+                "responses": ["Un indice bursátil es una medida del rendimiento de un conjunto de acciones que representan un mercado o sector."]
+              },
+              {
+                "tag": "Fondos de cobertura",
+                "patterns": ["¿Que son los fondos de cobertura?"],
+                "responses": ["Los fondos de cobertura son fondos de inversion que emplean estrategias avanzadas para obtener rendimientos elevados."]
+              },
+              {
+                "tag": "Opciones financieras",
+                "patterns": ["¿Que son las opciones financieras?"],
+                "responses": ["Las opciones financieras son contratos que otorgan el derecho, pero no la obligacion, de comprar o vender un activo a un precio especifico."]
+              },
+              {
+                "tag": "Futuros financieros",
+                "patterns": ["¿Que son los futuros financieros?"],
+                "responses": ["Los futuros financieros son contratos que obligan a comprar o vender un activo a un precio especifico en una fecha futura."]
+              },
+              {
+                "tag": "Venta en corto",
+                "patterns": ["¿Que es la venta en corto?"],
+                "responses": ["La venta en corto es una estrategia de inversion que busca beneficiarse de la caida en el precio de un activo."]
+              },
+              {
+                "tag": "Compra apalancada",
+                "patterns": ["¿Que es la compra apalancada?"],
+                "responses": ["La compra apalancada es la adquisicion de una empresa utilizando una cantidad significativa de deuda."]
+              },
+              {
+                "tag": "Capital de trabajo",
+                "patterns": ["¿Que es el capital de trabajo?"],
+                "responses": ["El capital de trabajo es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
+              },
+              {
+                "tag": "Ciclo economico",
+                "patterns": ["¿Que es el ciclo economico?"],
+                "responses": ["El ciclo economico es el patron de expansion y contraccion de la economia a lo largo del tiempo."]
+              },
+              {
+                "tag": "Deflacion",
+                "patterns": ["¿Que es la deflacion?"],
+                "responses": ["La deflacion es la disminucion general de los precios de bienes y servicios en una economia."]
+              },
+              {
+                "tag": "Banca de inversion",
+                "patterns": ["¿Que es la banca de inversion?"],
+                "responses": ["La banca de inversion ofrece servicios de asesoria financiera y financiamiento a empresas y gobiernos."]
+              },
+              {
+                "tag": "Auditoria",
+                "patterns": ["¿Que es la auditoria?"],
+                "responses": ["La auditoria es la revision y verificacion de los estados financieros de una empresa."]
+              },
+              {
+                "tag": "Activos intangibles",
+                "patterns": ["¿Que son los activos intangibles?"],
+                "responses": ["Los activos intangibles son activos no fisicos como patentes, marcas y derechos de autor."]
+              },
+              {
+                "tag": "Pasivos contingentes",
+                "patterns": ["¿Que son los pasivos contingentes?"],
+                "responses": ["Los pasivos contingentes son posibles obligaciones que dependen de eventos futuros inciertos."]
+              },
+              {
+                "tag": "Rendimiento sobre la inversion",
+                "patterns": ["¿Que es el rendimiento sobre la inversion?"],
+                "responses": ["El rendimiento sobre la inversion mide la ganancia o perdida generada en relacion con la inversion inicial."]
+              },
+              {
+                "tag": "Margen de beneficio",
+                "patterns": ["¿Que es el margen de beneficio?"],
+                "responses": ["El margen de beneficio es el porcentaje de ingresos que una empresa retiene como ganancia neta despues de los costos."]
+              },
+              {
+                "tag": "Punto de equilibrio",
+                "patterns": ["¿Que es el punto de equilibrio?"],
+                "responses": ["El punto de equilibrio es el nivel de ventas en el cual los ingresos igualan los costos, sin generar ganancias ni perdidas."]
+              },
+              {
+                "tag": "Estado de flujo de efectivo",
+                "patterns": ["¿Que es el estado de flujo de efectivo?"],
+                "responses": ["El estado de flujo de efectivo es un informe financiero que muestra las entradas y salidas de efectivo de una empresa."]
+              },
+              {
+                "tag": "Financiamiento a corto plazo",
+                "patterns": ["¿Que es el financiamiento a corto plazo?"],
+                "responses": ["El financiamiento a corto plazo se refiere a prestamos o creditos que deben ser pagados en menos de un año."]
+              },
+              {
+                "tag": "Financiamiento a largo plazo",
+                "patterns": ["¿Que es el financiamiento a largo plazo?"],
+                "responses": ["El financiamiento a largo plazo se refiere a prestamos o creditos con un plazo de pago superior a un año."]
+              },
+              {
+                "tag": "Coste de oportunidad",
+                "patterns": ["¿Que es el coste de oportunidad?"],
+                "responses": ["El coste de oportunidad es el valor de la mejor alternativa no elegida al tomar una decision."]
+              },
+              {
+                "tag": "Valor de mercado",
+                "patterns": ["¿Que es el valor de mercado?"],
+                "responses": ["El valor de mercado es el precio al que un activo se puede comprar o vender en un mercado abierto."]
+              },
+              {
+                "tag": "Valor contable",
+                "patterns": ["¿Que es el valor contable?"],
+                "responses": ["El valor contable es el valor de un activo segun los registros contables de una empresa."]
+              },
+              {
+                "tag": "Valor intrinseco",
+                "patterns": ["¿Que es el valor intrinseco?"],
+                "responses": ["El valor intrinseco es el valor real de un activo basado en análisis fundamentales, sin considerar el precio de mercado."]
+              },
+              {
+                "tag": "Ratio de solvencia",
+                "patterns": ["¿Que es el ratio de solvencia?"],
+                "responses": ["El ratio de solvencia mide la capacidad de una empresa para cumplir con sus obligaciones a largo plazo."]
+              },
+              {
+                "tag": "Ratio de liquidez",
+                "patterns": ["¿Que es el ratio de liquidez?"],
+                "responses": ["El ratio de liquidez mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo."]
+              },
+              {
+                "tag": "Ratio de endeudamiento",
+                "patterns": ["¿Que es el ratio de endeudamiento?"],
+                "responses": ["El ratio de endeudamiento mide el nivel de deuda de una empresa en relacion con su capital."]
+              },
+              {
+                "tag": "Análisis de sensibilidad",
+                "patterns": ["¿Que es el análisis de sensibilidad?"],
+                "responses": ["El análisis de sensibilidad evalua como diferentes variables afectan el resultado de un modelo financiero."]
+              },
+              {
+                "tag": "Presupuesto de capital",
+                "patterns": ["¿Que es el presupuesto de capital?"],
+                "responses": ["El presupuesto de capital es el proceso de planificacion y gestion de inversiones a largo plazo de una empresa."]
+              },
+              {
+                "tag": "Costos fijos",
+                "patterns": ["¿Que son los costos fijos?"],
+                "responses": ["Los costos fijos son costos que no cambian con el nivel de produccion o ventas."]
+              },
+              {
+                "tag": "Costos variables",
+                "patterns": ["¿Que son los costos variables?"],
+                "responses": ["Los costos variables cambian en funcion del nivel de produccion o ventas."]
+              },{
+                "tag": "Contabilidad de gestion",
+                "patterns": ["¿Que es la contabilidad de gestion?"],
+                "responses": ["La contabilidad de gestion se centra en proporcionar informacion para la toma de decisiones internas de una empresa."]
+              },
+              {
+                "tag": "Contabilidad de costos",
+                "patterns": ["¿Que es la contabilidad de costos?"],
+                "responses": ["La contabilidad de costos analiza y registra todos los costos asociados con la produccion de bienes o servicios."]
+              },
+              {
+                "tag": "Contabilidad financiera",
+                "patterns": ["¿Que es la contabilidad financiera?"],
+                "responses": ["La contabilidad financiera se ocupa de la preparacion de estados financieros para uso externo."]
+              },
+              {
+                "tag": "Contabilidad tributaria",
+                "patterns": ["¿Que es la contabilidad tributaria?"],
+                "responses": ["La contabilidad tributaria se enfoca en la preparacion de declaraciones fiscales y el cumplimiento de las leyes tributarias."]
+              },
+              {
+                "tag": "Plan de negocios",
+                "patterns": ["¿Que es un plan de negocios?"],
+                "responses": ["Un plan de negocios es un documento que describe los objetivos, estrategias y previsiones financieras de una empresa."]
+              },
+              {
+                "tag": "Estrategia de salida",
+                "patterns": ["¿Que es una estrategia de salida?"],
+                "responses": ["Una estrategia de salida es un plan para vender una inversion o empresa a fin de obtener ganancias."]
+              },
+              {
+                "tag": "Oferta publica inicial",
+                "patterns": ["¿Que es una oferta publica inicial?"],
+                "responses": ["Una oferta publica inicial es el proceso mediante el cual una empresa privada se convierte en publica vendiendo acciones en la bolsa."]
+              },
+              {
+                "tag": "Capital riesgo",
+                "patterns": ["¿Que es el capital riesgo?"],
+                "responses": ["El capital riesgo es financiamiento proporcionado a empresas emergentes con alto potencial de crecimiento a cambio de participacion accionaria."]
+              },
+              {
+                "tag": "Capital privado",
+                "patterns": ["¿Que es el capital privado?"],
+                "responses": ["El capital privado es financiamiento de inversionistas a empresas no cotizadas en bolsa, a menudo para reestructuracion o expansion."]
+              },
+              {
+                "tag": "Análisis tecnico",
+                "patterns": ["¿Que es el análisis tecnico?"],
+                "responses": ["El análisis tecnico es una metodologia para evaluar inversiones mediante el análisis de estadisticas generadas por la actividad del mercado."]
+              },
+              {
+                "tag": "Análisis fundamental",
+                "patterns": ["¿Que es el análisis fundamental?"],
+                "responses": ["El análisis fundamental evalua el valor de una inversion analizando factores economicos, financieros y otros cualitativos y cuantitativos."]
+              },
+              {
+                "tag": "Indicadores economicos",
+                "patterns": ["¿Que son los indicadores economicos?"],
+                "responses": ["Los indicadores economicos son estadisticas que muestran el desempeño economico de un pais, como el PIB, la inflacion y el desempleo."]
+              },
+              {
+                "tag": "Politica monetaria",
+                "patterns": ["¿Que es la politica monetaria?"],
+                "responses": ["La politica monetaria es la gestion de la oferta de dinero y las tasas de interes por parte de un banco central para influir en la economia."]
+              },
+              {
+                "tag": "Politica fiscal",
+                "patterns": ["¿Que es la politica fiscal?"],
+                "responses": ["La politica fiscal es el uso de gasto publico y recaudacion de impuestos por parte del gobierno para influir en la economia."]
+              },{
+                "tag": "Gestion de riesgos",
+                "patterns": ["¿Que es la gestion de riesgos?"],
+                "responses": ["La gestion de riesgos es el proceso de identificar, evaluar y mitigar los riesgos financieros en una empresa."]
+              },
+              {
+                "tag": "Planificacion patrimonial",
+                "patterns": ["¿Que es la planificacion patrimonial?"],
+                "responses": ["La planificacion patrimonial es el proceso de organizar y distribuir los activos de una persona para maximizar su valor y minimizar impuestos."]
+              },
+              {
+                "tag": "Fideicomiso",
+                "patterns": ["¿Que es un fideicomiso?"],
+                "responses": ["Un fideicomiso es un acuerdo legal en el cual una persona o entidad administra activos en beneficio de otra."]
+              },
+              {
+                "tag": "Heredero",
+                "patterns": ["¿Que es un heredero?"],
+                "responses": ["Un heredero es una persona que recibe los bienes de una persona fallecida segun su testamento o las leyes de sucesion."]
+              },
+              {
+                "tag": "Testamento",
+                "patterns": ["¿Que es un testamento?"],
+                "responses": ["Un testamento es un documento legal en el que una persona expresa como quiere que se distribuyan sus bienes despues de su muerte."]
+              },
+              {
+                "tag": "Capitalizacion bursátil",
+                "patterns": ["¿Que es la capitalizacion bursátil?"],
+                "responses": ["La capitalizacion bursátil es el valor total de mercado de todas las acciones en circulacion de una empresa."]
+              },
+              {
+                "tag": "Dividendos",
+                "patterns": ["¿Que son los dividendos?"],
+                "responses": ["Los dividendos son distribuciones de las ganancias de una empresa a sus accionistas."]
+              },
+              {
+                "tag": "Ingreso pasivo",
+                "patterns": ["¿Que es el ingreso pasivo?"],
+                "responses": ["El ingreso pasivo es el dinero ganado con poco o ningun esfuerzo continuo, como alquileres o inversiones."]
+              },
+              {
+                "tag": "Ingreso residual",
+                "patterns": ["¿Que es el ingreso residual?"],
+                "responses": ["El ingreso residual es el dinero que una persona sigue ganando despues de haber terminado el trabajo inicial, como regalias."]
+              },
+              {
+                "tag": "Escrow",
+                "patterns": ["¿Que es escrow?"],
+                "responses": ["Escrow es un acuerdo donde un tercero mantiene y regula el pago de fondos requeridos para dos partes involucradas en una transaccion."]
+              },
+              {
+                "tag": "Deduccion fiscal",
+                "patterns": ["¿Que es una deduccion fiscal?"],
+                "responses": ["Una deduccion fiscal es un gasto que se puede restar de los ingresos brutos para reducir la cantidad de ingresos sujetos a impuestos."]
+              },
+              {
+                "tag": "Evasion fiscal",
+                "patterns": ["¿Que es la evasion fiscal?"],
+                "responses": ["La evasion fiscal es el acto ilegal de no pagar los impuestos debidos."]
+              },
+              {
+                "tag": "Elusion fiscal",
+                "patterns": ["¿Que es la elusion fiscal?"],
+                "responses": ["La elusion fiscal es el uso de metodos legales para minimizar el pago de impuestos."]
+              },
+              {
+                "tag": "Renta variable",
+                "patterns": ["¿Que es la renta variable?"],
+                "responses": ["La renta variable se refiere a las inversiones en acciones, cuyo rendimiento no está garantizado."]
+              },
+              {
+                "tag": "Renta fija",
+                "patterns": ["¿Que es la renta fija?"],
+                "responses": ["La renta fija se refiere a las inversiones que ofrecen retornos periodicos y predecibles, como los bonos."]
+              },
+              {
+                "tag": "Liquidez del mercado",
+                "patterns": ["¿Que es la liquidez del mercado?"],
+                "responses": ["La liquidez del mercado es la capacidad de comprar o vender activos rápidamente sin afectar significativamente su precio."]
+              },
+              {
+                "tag": "Cotizacion bursátil",
+                "patterns": ["¿Que es la cotizacion bursátil?"],
+                "responses": ["La cotizacion bursátil es el precio al cual se negocian las acciones de una empresa en el mercado de valores."]
+              },{
+                "tag": "indice de precios al consumidor",
+                "patterns": ["¿Que es el indice de precios al consumidor?"],
+                "responses": ["El indice de precios al consumidor mide la variacion de los precios de una canasta de bienes y servicios representativa del consumo familiar."]
+              },
+              {
+                "tag": "indice de precios al productor",
+                "patterns": ["¿Que es el indice de precios al productor?"],
+                "responses": ["El indice de precios al productor mide la variacion de los precios que reciben los productores por sus bienes y servicios."]
+              },
+              {
+                "tag": "Tasa de desempleo",
+                "patterns": ["¿Que es la tasa de desempleo?"],
+                "responses": ["La tasa de desempleo es el porcentaje de la poblacion activa que se encuentra en busca de trabajo y no lo encuentra."]
+              },
+              {
+                "tag": "Producto Interno Bruto",
+                "patterns": ["¿Que es el Producto Interno Bruto?"],
+                "responses": ["El Producto Interno Bruto es el valor total de los bienes y servicios producidos en un pais durante un periodo determinado."]
+              },
+              {
+                "tag": "Deficit presupuestario",
+                "patterns": ["¿Que es el deficit presupuestario?"],
+                "responses": ["El deficit presupuestario ocurre cuando los gastos del gobierno superan sus ingresos en un periodo determinado."]
+              },
+              {
+                "tag": "Superávit presupuestario",
+                "patterns": ["¿Que es el superávit presupuestario?"],
+                "responses": ["El superávit presupuestario ocurre cuando los ingresos del gobierno superan sus gastos en un periodo determinado."]
+              },
+              {
+                "tag": "Cuentas por cobrar",
+                "patterns": ["¿Que son las cuentas por cobrar?"],
+                "responses": ["Las cuentas por cobrar son derechos de cobro que tiene una empresa por la venta de bienes o servicios a credito."]
+              },
+              {
+                "tag": "Cuentas por pagar",
+                "patterns": ["¿Que son las cuentas por pagar?"],
+                "responses": ["Las cuentas por pagar son obligaciones de pago que tiene una empresa por la compra de bienes o servicios a credito."]
+              },
+              {
+                "tag": "Capital social",
+                "patterns": ["¿Que es el capital social?"],
+                "responses": ["El capital social es el valor total de las aportaciones de los socios o accionistas de una empresa."]
+              },
+              {
+                "tag": "Autofinanciamiento",
+                "patterns": ["¿Que es el autofinanciamiento?"],
+                "responses": ["El autofinanciamiento es la capacidad de una empresa para financiar sus operaciones y proyectos con sus propias ganancias."]
+              },
+              {
+                "tag": "Desinversion",
+                "patterns": ["¿Que es la desinversion?"],
+                "responses": ["La desinversion es la venta de activos o negocios por parte de una empresa para obtener liquidez o reorientar su estrategia."]
+              },
+              {
+                "tag": "Ganancias retenidas",
+                "patterns": ["¿Que son las ganancias retenidas?"],
+                "responses": ["Las ganancias retenidas son los beneficios no distribuidos a los accionistas y reinvertidos en la empresa."]
+              },
+              {
+                "tag": "Contabilidad por partida doble",
+                "patterns": ["¿Que es la contabilidad por partida doble?"],
+                "responses": ["La contabilidad por partida doble es un sistema que registra cada transaccion en dos cuentas, una de debito y otra de credito."]
+              },
+              {
+                "tag": "Control interno",
+                "patterns": ["¿Que es el control interno?"],
+                "responses": ["El control interno es un conjunto de procedimientos y politicas para salvaguardar los activos de una empresa y asegurar la exactitud de su informacion financiera."]
+              },
+              {
+                "tag": "Fraude financiero",
+                "patterns": ["¿Que es el fraude financiero?"],
+                "responses": ["El fraude financiero es la manipulacion o falsificacion de informacion financiera para obtener beneficios ilegales."]
+              },
+              {
+                "tag": "Compliance",
+                "patterns": ["¿Que es compliance?"],
+                "responses": ["Compliance se refiere al cumplimiento de leyes, normas y politicas internas por parte de una empresa."]
+              },
+              {
+                "tag": "Normas internacionales de contabilidad",
+                "patterns": ["¿Que son las Normas Internacionales de Contabilidad?"],
+                "responses": ["Las Normas Internacionales de Contabilidad son estándares para la preparacion de estados financieros, garantizando transparencia y comparabilidad."]
+              },
+              {
+                "tag": "Normas internacionales de informacion financiera",
+                "patterns": ["¿Que son las Normas Internacionales de Informacion Financiera?"],
+                "responses": ["Las Normas Internacionales de Informacion Financiera son un conjunto de normas contables globales para la elaboracion de informes financieros."]
+              },
+              {
+                "tag": "Contabilidad creativa",
+                "patterns": ["¿Que es la contabilidad creativa?"],
+                "responses": ["La contabilidad creativa implica el uso de tecnicas contables para presentar los estados financieros de una manera más favorable."]
+              },
+              {
+                "tag": "Valoracion de empresas",
+                "patterns": ["¿Que es la valoracion de empresas?"],
+                "responses": ["La valoracion de empresas es el proceso de determinar el valor economico de una empresa o unidad de negocio."]
+              },
+              {
+                "tag": "Alianzas estrategicas",
+                "patterns": ["¿Que son las alianzas estrategicas?"],
+                "responses": ["Las alianzas estrategicas son acuerdos entre empresas para colaborar en proyectos especificos o compartir recursos."]
+              },
+              {
+                "tag": "Fusiones y adquisiciones",
+                "patterns": ["¿Que son las fusiones y adquisiciones?"],
+                "responses": ["Las fusiones y adquisiciones son procesos donde dos empresas se combinan o una compra a otra para fortalecer su posicion en el mercado."]
+              },
+              {
+                "tag": "Debida diligencia",
+                "patterns": ["¿Que es la debida diligencia?"],
+                "responses": ["La debida diligencia es la investigacion y evaluacion de una empresa antes de una transaccion comercial importante."]
+              },
+              {
+                "tag": "Informe anual",
+                "patterns": ["¿Que es un informe anual?"],
+                "responses": ["Un informe anual es un documento que proporciona una vision general del desempeño financiero y operativo de una empresa durante el año."]
+              },{
+                "tag": "Ratios de rentabilidad",
+                "patterns": ["¿Que son los ratios de rentabilidad?"],
+                "responses": ["Los ratios de rentabilidad miden la capacidad de una empresa para generar ganancias en relacion con sus ingresos, activos o patrimonio."]
+              },
+              {
+                "tag": "Ratios de eficiencia",
+                "patterns": ["¿Que son los ratios de eficiencia?"],
+                "responses": ["Los ratios de eficiencia evaluan como una empresa utiliza sus recursos para generar ingresos y maximizar beneficios."]
+              },
+              {
+                "tag": "Ratios de endeudamiento",
+                "patterns": ["¿Que son los ratios de endeudamiento?"],
+                "responses": ["Los ratios de endeudamiento indican el nivel de deuda de una empresa en relacion con su capital propio o activos totales."]
+              },
+              {
+                "tag": "Ratios de mercado",
+                "patterns": ["¿Que son los ratios de mercado?"],
+                "responses": ["Los ratios de mercado evaluan el valor de mercado de una empresa en relacion con su rendimiento financiero, como el PER."]
+              },
+              {
+                "tag": "Capital circulante",
+                "patterns": ["¿Que es el capital circulante?"],
+                "responses": ["El capital circulante es la diferencia entre los activos corrientes y los pasivos corrientes de una empresa."]
+              },
+              {
+                "tag": "Prestamos sindicados",
+                "patterns": ["¿Que son los prestamos sindicados?"],
+                "responses": ["Los prestamos sindicados son prestamos ofrecidos por un grupo de bancos a un solo prestatario."]
+              },
+              {
+                "tag": "Microfinanzas",
+                "patterns": ["¿Que son las microfinanzas?"],
+                "responses": ["Las microfinanzas ofrecen servicios financieros a personas de bajos ingresos o pequeñas empresas que no tienen acceso a la banca tradicional."]
+              },
+              {
+                "tag": "Banca movil",
+                "patterns": ["¿Que es la banca movil?"],
+                "responses": ["La banca movil permite realizar operaciones bancarias a traves de dispositivos moviles, como telefonos inteligentes."]
+              },
+              {
+                "tag": "Criptomonedas",
+                "patterns": ["¿Que son las criptomonedas?"],
+                "responses": ["Las criptomonedas son monedas digitales que utilizan la criptografia para asegurar y verificar transacciones."]
+              },
+              {
+                "tag": "Blockchain",
+                "patterns": ["¿Que es blockchain?"],
+                "responses": ["Blockchain es una tecnologia de registro distribuido que asegura y verifica transacciones mediante criptografia."]
+              },
+              {
+                "tag": "Fintech",
+                "patterns": ["¿Que es fintech?"],
+                "responses": ["Fintech se refiere a las tecnologias financieras que buscan mejorar y automatizar los servicios y procesos financieros."]
+              },
+              {
+                "tag": "Economia colaborativa",
+                "patterns": ["¿Que es la economia colaborativa?"],
+                "responses": ["La economia colaborativa se basa en compartir y utilizar recursos y servicios entre individuos, a menudo a traves de plataformas digitales."]
+              },
+              {
+                "tag": "Crowdfunding",
+                "patterns": ["¿Que es el crowdfunding?"],
+                "responses": ["El crowdfunding es un metodo de financiamiento donde se recauda dinero para proyectos o negocios a traves de pequeñas contribuciones de muchas personas."]
+              },
+              {
+                "tag": "Peer-to-peer lending",
+                "patterns": ["¿Que es el peer-to-peer lending?"],
+                "responses": ["El peer-to-peer lending es un sistema de prestamos donde los individuos prestan dinero directamente a otros sin intermediarios tradicionales."]
+              },
+              {
+                "tag": "Seguros",
+                "patterns": ["¿Que son los seguros?"],
+                "responses": ["Los seguros son contratos que transfieren el riesgo de perdida financiera de una persona o empresa a una aseguradora a cambio de una prima."]
+              },
+              {
+                "tag": "Reaseguro",
+                "patterns": ["¿Que es el reaseguro?"],
+                "responses": ["El reaseguro es un acuerdo en el que una aseguradora transfiere parte de sus riesgos a otra aseguradora para reducir su exposicion a grandes perdidas."]
+              },
+              {
+                "tag": "Análisis crediticio",
+                "patterns": ["¿Que es el análisis crediticio?"],
+                "responses": ["El análisis crediticio evalua la capacidad de un prestatario para cumplir con sus obligaciones de deuda."]
+              },
+              {
+                "tag": "Perfil de riesgo",
+                "patterns": ["¿Que es el perfil de riesgo?"],
+                "responses": ["El perfil de riesgo describe la disposicion y capacidad de una persona o entidad para asumir riesgos financieros."]
+              },
+              {
+                "tag": "Puntuacion de credito",
+                "patterns": ["¿Que es la puntuacion de credito?"],
+                "responses": ["La puntuacion de credito es una medida numerica de la solvencia crediticia de una persona, basada en su historial crediticio."]
+              },
+              {
+                "tag": "Escala salarial",
+                "patterns": ["¿Que es una escala salarial?"],
+                "responses": ["Una escala salarial es una tabla que muestra los salarios correspondientes a diferentes niveles de experiencia y responsabilidad en una organizacion."]
+              },
+              {
+                "tag": "Hedge funds",
+                "patterns": ["¿Que son los hedge funds?"],
+                "responses": ["Los hedge funds son fondos de inversion que emplean estrategias avanzadas para obtener altos rendimientos, a menudo con mayor riesgo."]
+              },
+              {
+                "tag": "Private equity",
+                "patterns": ["¿Que es el private equity?"],
+                "responses": ["El private equity es capital invertido en empresas privadas no cotizadas, con el objetivo de mejorar su valor y eventualmente venderlas con ganancias."]
+              },
+              {
+                "tag": "Venture capital",
+                "patterns": ["¿Que es el venture capital?"],
+                "responses": ["El venture capital es financiamiento proporcionado a startups y empresas emergentes con alto potencial de crecimiento a cambio de participacion accionaria."]
+              },
+              {
+                "tag": "Bootstrapping",
+                "patterns": ["¿Que es el bootstrapping?"],
+                "responses": ["El bootstrapping es la práctica de iniciar y hacer crecer un negocio con recursos minimos y sin financiamiento externo."]
+              },
+              {
+                "tag": "Capital inicial",
+                "patterns": ["¿Que es el capital inicial?"],
+                "responses": ["El capital inicial es el dinero necesario para lanzar un negocio y cubrir sus primeros gastos operativos."]
+              },
+              {
+                "tag": "Capital semilla",
+                "patterns": ["¿Que es el capital semilla?"],
+                "responses": ["El capital semilla es financiamiento temprano proporcionado a startups para desarrollar su producto y modelo de negocio."]
+              },
+              {
+                "tag": "Prestamo puente",
+                "patterns": ["¿Que es un prestamo puente?"],
+                "responses": ["Un prestamo puente es un financiamiento temporal utilizado para cubrir necesidades inmediatas de efectivo hasta obtener un financiamiento a largo plazo."]
+              },
+              {
+                "tag": "Acciones preferentes",
+                "patterns": ["¿Que son las acciones preferentes?"],
+                "responses": ["Las acciones preferentes son valores que ofrecen dividendos fijos y tienen prioridad sobre las acciones comunes en la distribucion de ganancias."]
+              },
+              {
+                "tag": "Fondos indexados",
+                "patterns": ["¿Que son los fondos indexados?"],
+                "responses": ["Los fondos indexados son fondos de inversion que replican la composicion y rendimiento de un indice de mercado especifico."]
+              },
+              {
+                "tag": "Fondos cotizados",
+                "patterns": ["¿Que son los fondos cotizados?"],
+                "responses": ["Los fondos cotizados (ETF) son fondos de inversion que se negocian en bolsas de valores y siguen el rendimiento de un indice, sector o activo."]
+              },
+              {
+                "tag": "Titulos de deuda",
+                "patterns": ["¿Que son los titulos de deuda?"],
+                "responses": ["Los titulos de deuda son instrumentos financieros que representan un prestamo a una entidad, que debe ser reembolsado con intereses."]
+              },
+              {
+                "tag": "Bonos convertibles",
+                "patterns": ["¿Que son los bonos convertibles?"],
+                "responses": ["Los bonos convertibles son titulos de deuda que pueden convertirse en acciones de la empresa emisora bajo ciertas condiciones."]
+              },
+              {
+                "tag": "Certificados de deposito",
+                "patterns": ["¿Que son los certificados de deposito?"],
+                "responses": ["Los certificados de deposito son instrumentos financieros emitidos por bancos que ofrecen un rendimiento fijo por un periodo determinado."]
+              },
+              {
+                "tag": "Letras del Tesoro",
+                "patterns": ["¿Que son las letras del Tesoro?"],
+                "responses": ["Las letras del Tesoro son titulos de deuda a corto plazo emitidos por el gobierno para financiar sus necesidades de efectivo."]
+              },
+              {
+                "tag": "La Cuenta de Capitalizacion Individual (CCI)",
+                "patterns": ["La Cuenta de Capitalizacion Individual (CCI)", "Que es la CCI", "Que es una cuenta de capitalizacion individual"],
+                "responses": ["La Cuenta de Capitalizacion Individual (CCI) es el registro individual unificado de los aportes que son propiedad exclusiva de cada afiliado. Este registro comprende todos los aportes voluntarios y obligatorios, el monto que corresponda al bono de reconocimiento cuando se haga efectivo, si aplica, pago de prestaciones y la rentabilidad que le corresponda del fondo administrado. El afiliado podrá tener solo una cuenta para fines de ahorro de pension, por tanto ninguna persona podrá afiliarse a más de una AFP."]
+              },
+              {
+                "tag": "Administradoras de Fondos de Pensiones (AFP)",
+                "patterns": ["Administradoras de Fondos de Pensiones (AFP)", "Que es la AFP", "Que es la administradora de fondos de pensiones"],
+                "responses": ["Las Administradoras de Fondos de Pensiones (AFP) son empresas especializadas, cuyo unico objeto es administrar las cuentas personales de los afiliados e invertir adecuadamente los fondos de pensiones. De igual modo, otorgar y administrar las pensiones correspondientes. Todo esto obedeciendo estrictamente los principios de la seguridad social y las disposiciones de la Ley 87-01 y sus normas complementarias. Las AFP podrán ser publicas, privadas o mixtas. \n\nLas AFP serán supervisadas y controladas directamente por la Superintendencia de Pensiones, cuya funcion principal será velar por el estricto cumplimiento de la Ley y sus normas complementarias, proteger los intereses de los afiliados, vigilar la solvencia financiera de las AFP y contribuir al fortalecimiento del Sistema. \n\n"]
+              },
+              {
+                "tag": "Regimenes de financiamiento del SDSS",
+                "patterns": ["Regimenes de financiamiento del SDSS"],
+                "responses": ["Para garantizar la cobertura de toda la poblacion, La Ley 87-01 establece tres regimenes de financiamiento para el Sistema Dominicano de Seguridad Social: Contributivo, Subsidiado y Contributivo Subsidiado. \n\nRegimen Contributivo: comprende a todos los trabajadores asalariados publicos y privados a los empleadores, financiado por los trabajadores (70%) y empleadores (30%), incluyendo al Estado como empleador. \n\nRegimen Subsidiado: protege a los trabajadores por cuenta propia con ingresos inestables e inferiores al salario minimo nacional, asi como a los desempleados, discapacitados e indigentes, y el mismo es financiado fundamentalmente por el Estado Dominicano. \n\nRegimen Contributivo Subsidiado: protege a los profesionales tecnicos independientes y a los trabajadores por cuenta propia con ingresos promedio, iguales o superiores a un salario minimo nacional, con aportes del trabajador y un subsidio estatal para suplir la falta del empleador."]
+              },
+              {
+                "tag": "Sistema Dominicano de Seguridad Social (SDSS)",
+                "patterns": ["Sistema Dominicano de Seguridad Social (SDSS)", "Que es el SDSS", "Que es el sistema dominicano de seguridad social"],
+                "responses": ["La ley No. 87-01, promulgada en el año 2001, crea el Sistema Dominicano de Seguridad Social (SDSS), cuyo objetivo es la proteccion de la poblacion contra ciertos riesgos a traves de la operacion de los sistemas de pensiones, salud y riesgos laborales. Todos los dominicanos y extranjeros residentes legales en el territorio nacional están cubiertos."]
+              },
+              {
+                "tag": "Que_es_la_contabilidad",
+                "patterns": ["¿Que es la contabilidad?", "contabilidad"],
+                "responses": ["Es una disciplina que se encarga de estudiar ,medir y analizar el patrimonio, la situacion patrimonial economica y financiera de una empresa u organizacion, con el fin de facilitar la toma de decisiones en el seno de la misma y el control externo, presentando la informacion, previamente registrada, de manera sistemática y util para las distintas partes interesadas."]
+              },
+              {
+                "tag": "Ventaja de la tarjeta de credito",
+                "patterns": ["Cual es seria la ventaja de tener una tarjeta de credito", "ventajas de la tarjeta de credito"],
+                "responses": ["Algunas de las ventajas de utilizar una tarjeta de credito son: \n\n 1-Control de gastos. Todo consumo que realices con la tarjeta de credito queda registrado en tus movimientos, lo cual te facilita verificar en que estás gastando tu dinero.\n\n2-Financiamiento gratuito. Si pagas mensualmente la deuda de tu tarjeta de credito en su totalidad antes de la fecha de vencimiento, estás recibiendo financiamiento sin pagar intereses. \n\n3-Beneficios por uso. Con el fin de incentivar el uso de la tarjeta de credito, las instituciones financieras, además de los planes de recompensa o devoluciones, ofrecen otros beneficios como pueden ser  descuentos en comercios, seguros de vida, seguros para autos alquilados, asistencia en viajes, acceso a salas VIP en aeropuertos, entre otros. Estos varian por tarjeta y es bueno conocerlos para sacarle el mejor provecho posible. \n\n4-No usar efectivo. La tarjeta de credito es un medio de pago muy popular con el cual puedes hacer compras en un gran numero de comercios, tanto local como internacionalmente. Esto te ofrece la oportunidad de no tener que utilizar efectivo y lidiar con el riesgo que implica cargar tu dinero en fisico, ya sea que se deteriore, que se extravie o que te lo roben, por ejemplo. Además del espacio que ocupa en tus bolsillos. \n\n5-Mejorar tu historial y puntaje de credito. Cada vez que realizas consumos con tu tarjeta de credito estás tomando un prestamo, por lo que tu comportamiento de uso y pago quedará registrado en tu historial de credito. Por lo que, utilizarla correctamente, puede mejorar tu historial y puntaje de credito. \n\n6-Generacion de recompensas o devoluciones. Por solo utilizar la tarjeta como medio de pago para realizar tus compras puedes generar puntos que, luego de acumular una cantidad determinada, los puedes canjear por premios como pueden ser dinero, bonos de compras, pasajes de avion, etc."]
+              },
+              {
+                "tag": "Que_es_una_tarjeta_de_credito",
+                "patterns": ["Definicion de tarjeta de credito", "Que es una tarjeta de credito", "tarjeta de credito"],
+                "responses": ["La tarjeta de credito es un instrumento de financiamiento que cuenta con un limite de credito que puedes utilizar para realizar compras en comercios que lo acepten como medio de pago. En Republica Dominicana solo pueden ser emitidas por un Banco multiple, Banco de ahorro y credito o Asociacion de ahorros y prestamos. Al utilizarla, el usuario o tarjetahabiente asume la obligacion de devolver los montos consumidos y, en caso de aplicar, pagar los intereses y comisiones bancarias asociadas. "]
+              },
+              {
+                "tag": "Desventajas de usar una tarjeta de credito",
+                "patterns": ["Desventajas de usar una tarjeta de credito", "Desventaja de una tarjeta de credito"],
+                "responses": [" Endeudamiento rápido. Cada consumo que realizas con tu tarjeta de credito es una deuda que debes pagar luego y lo unico que te detiene al momento de hacer compras es el limite de credito de la misma, por lo que es muy fácil acumular una deuda que se te dificulte pagar luego. \n\nEmpeorar historial y puntaje de credito. Cada vez que realizas consumos con tu tarjeta de credito estás tomando un prestamo, por lo que tu comportamiento de uso y pago quedará registrado en tu historial de credito. Por lo que, utilizarla incorrectamente, puede empeorar tu historial y puntaje de credito. \n\n"]
+              },
+              {
+                "tag": "Fecha de corte de una tarjeta de credito",
+                "patterns": ["Fecha de corte de una tarjeta de credito"],
+                "responses": ["Es la fecha que agrupa el conjunto de transacciones dentro de un periodo determinado, y define los movimientos que aparecen en tu estado de cuenta de tarjeta de credito."]
+              },
+              {
+                "tag": "Estado de cuenta de una tarjeta de credito",
+                "patterns": ["Estado de cuenta de una tarjeta de credito"],
+                "responses": ["El estado de cuenta es un documento que se genera mensualmente en la fecha de corte de la tarjeta de credito. Este documento muestra todos los consumos y pagos realizados durante el mes anterior y la deuda total acumulada a pagarse antes de la fecha de vencimiento."]
+              },
+              {
+                "tag": "Pago minimo de una tarjeta de credito",
+                "patterns": ["Pago minimo de una tarjeta de credito", "Pago minimo tarjeta de credito"],
+                "responses": ["Es el pago que, como minimo, debe abonarse al monto o saldo adeudado en una tarjeta de credito para mantener la deuda al dia o vigente y evitar cargos por mora o retrasos. \n\nLuego de calcular los intereses correspondientes al mes del estado de corte, se le agregan los cargos y comisiones bancarias asociados a la tarjeta que han sido registrados en el transcurso de ese mes. A este monto, se le agrega la treintaiseisava parte (1/36) del monto adeudado al corte, de tal manera que al cabo de tres años se habria amortizado la deuda en su totalidad, de no generarse cargos o consumos adicionales y haberse mantenido los pagos siempre al dia."]
+              },
+              {
+                "tag": "Calculo de intereses de una tarjeta de credito",
+                "patterns": ["Calculo de intereses de una tarjeta de credito"],
+                "responses": ["En terminos tecnicos, se calcula sobre el saldo insoluto de capital a la fecha de corte, es decir, cuando se genero el estado de cuenta mensual. Dicho saldo o balance excluirá, para fines de cálculos, los intereses, comisiones y otros cargos. \n\nQuizás la mejor forma de entenderlo es con un ejemplo hipotetico. Digamos que vas a un hotel con tu familia el 1ro de enero. Consumes ese mismo dia RD$10,000, en una tarjeta de credito nueva, en la que nunca has realizado otros consumos. El 31 de enero es tu “Fecha de Corte” y en ese dia se genera tu estado de cuenta. \nEn el estado, se te indica que puedes hacer el pago de dos formas: \n\nEl “Pago Total” del “Balance a la fecha de corte” (es decir, de RD$10,000). Un “Pago Minimo”, digamos que de RD$1,000. Tambien en el estado se establece que tu “Fecha Limite de Pago” es el 23 de febrero. \n\n Si el 23 de febrero haces el “Pago Total”, habrás logrado financiar por 53 dias (los 30 dias del mes de enero, más los 23 dias de febrero) a un costo de cero por ciento (0%). Ahora bien, si el 23 de febrero solo haces el pago minimo, el banco emisor de tu tarjeta de credito te cobrará intereses sobre el “saldo insoluto” o el monto debido. ¿Por cuánto tiempo? Desde la fecha que se origino el consumo (1ro de enero) hasta la “Fecha de Corte” (el 31 de enero). Es decir, 30 dias. \n\nSi la tasa de interes es un 60% anual, se multiplicará RD$10,000 por 60% por la cantidad de dias (30) entre los dias del año (360). Es decir, que se te cobrarán intereses equivalentes a aproximadamente RD$500. \n\n ¿Que ocurre si el 23 de febrero abonas RD$9,000 y dejas pendiente pagar solamente RD$1,000? ¿Te cobrarán intereses sobre los RD$1,000? No. El banco cobrará intereses por el saldo insoluto adeudado durante el transcurso del mes, que fue de RD$10,000."]
+              },
+              {
+                "tag": "Sobregiro de una tarjeta de credito",
+                "patterns": ["Sobregiro de una tarjeta de credito"],
+                "responses": ["Aunque las tarjetas de credito tienen un limite de credito, en base al cual puedes realizar consumos, estás te lo permiten sobrepasar hasta cierto punto. A este limite adicional le llaman sobregiro y suele representar, en muchos casos, el 20% del limite regular. Es bueno tener en cuenta que utilizar el sobregiro tiene un costo, que puede ser un porcentaje o un monto fijo. Utilizarlo es normalmente señal de un mal manejo de la tarjeta de credito y es preferible nunca hacerlo."]
+              },
+              {
+                "tag": "Avance de efectivo con una tarjeta de credito",
+                "patterns": ["Avance de efectivo con una tarjeta de credito"],
+                "responses": ["Las tarjetas de credito te ofrecen la posibilidad de retirar dinero en efectivo a traves de cajeros automáticos o, en algunos casos, via una aplicacion movil o web. A estos retiros se les llama “Avance de efectivo”. Hacer un avance de efectivo tiene un costo, el cual puede ascender a poco más del 6% del monto retirado. Y además, al igual que con los consumos que realizas, estás tomando un prestamo que debes pagar."]
+              },
+              {
+                "tag": "Requisitos para solicitar una tarjeta de credito",
+                "patterns": ["Requisitos para solicitar una tarjeta de credito"],
+                "responses": ["Estos pueden variar por institucion financiera, pero normalmente son estos: \n\n 1-Edad entre 18 y 70 años. \n\n2-Ingresos minimos mensuales RD$8,000. \n\n3-Si es empleado, minimo seis (6) meses de servicio en la empresa donde laboras. \n\n4-Constancia de ingresos: carta de trabajo y/o fotocopia de los tres (3) ultimos estados de cuenta de ahorros o corriente. \n\n5-Completar formulario de solicitud."]
+              },
+              {
+                "tag": "Definicion de un prestamo para vehiculo",
+                "patterns": ["Definicion de un prestamo para vehiculo", "Como puedo hacer un prestamo para un vehiculo"],
+                "responses": ["Los prestamos para vehiculos, como su nombre lo dice, está dirigido a la adquisicion de un vehiculo, el cual a la vez sirve de garantia. Por estar garantizado por un vehiculo, estos prestamos ofrecen condiciones más atractivas que las de un prestamo personal regular, como son menores tasas de interes y mayores plazos. \n\nLas institucion financiera no presta el dinero completo para adquirir el vehiculo, solo una proporcion. El monto restante debe ser pagado por el cliente y es lo que se conoce como “inicial”. Esta proporcion a prestar varia segun la antigüedad del vehiculo, por lo que uno nuevo requiere un menor inicial que uno usado."]
+              },
+              {
+                "tag": "Requisitos para solicitar un prestamo de vehiculo",
+                "patterns": ["Requisitos para solicitar un prestamo de vehiculo", "requisitos necesarios para solicitar un prestamo de vehiculo"],
+                "responses": ["Estos pueden variar por institucion financiera, pero normalmente son estos: \n\nEdad entre 18 y 70 años. \n\nSi es empleado, minimo seis (6) meses de servicio en la empresa donde laboras. \n\nConstancia de ingresos: carta de trabajo y/o los tres (3) ultimos estados de cuenta de ahorros o corriente. \n\nPara vehiculos nuevos: cotizacion emitida por el suplidor. \n\nPara vehiculos usados: tasacion emitida por tasador autorizado por la institucion financiera. \n\nCompletar formulario de solicitud."]
+              },
+              {
+                "tag": "Sobre el puntaje o score de credito",
+                "patterns": ["Puntaje de una tarjeta de credito", "Score de credito", "puntaje de credito"],
+                "responses": ["El puntaje o “score” crediticio indica que probabilidad existe de que honres o incumplas tus compromisos financieros. A mayor puntuacion, menor es el riesgo de que un potencial cliente incumpla su obligacion de pago. \n\nEs importante conocer tu puntaje de credito para monitorear en que nivel está y saber con tiempo si necesitas mejorarlo e identificar que lo puede estar afectando."]
+              },
+              {
+                "tag": "Diferencias entre el puntaje o score de credito y el historial de credito",
+                "patterns": ["Diferencias entre el puntaje o score de credito y el historial de credito", "diferecias entre el puntaje y le historial de credito"],
+                "responses": ["El historial de credito es el registro de todos los financiamientos que has tenido durante un periodo determinado, junto a su estatus y comportamiento de pago de los mismos. Mientras que el puntaje, es un cálculo que hace un buro de credito, partiendo del historial de credito, para determinar un numero, dentro de una escala determinada, que representa la probabilidad que existe de que el usuario honre o incumpla sus compromisos financieros."]
+              },
+              {
+                "tag": "Fideicomiso",
+                "patterns": ["Fideicomiso", "Que es un Fideicomiso"],
+                "responses": ["Acto mediante el cual una o varias personas, llamadas fideicomitentes, transfieren derechos de propiedad a personas juridicas, llamadas fiduciarios, para la constitucion de un patrimonio separado, llamado patrimonio fideicomitido, cuya administracion o disposicion será ejercida por el o los fiduciarios segun las instrucciones del o de los fideicomitentes, en favor de una o varias personas, llamadas fideicomisarios o beneficiarios."]
+              },
+              {
+                "tag": "Fiduciarios",
+                "patterns": ["Fiduciarios", "que es el Fiduciarios"],
+                "responses": ["Corresponde a la persona juridica, debidamente autorizadas, que reciben los bienes dados o derechos cedidos para la constitucion de un fideicomiso, debiendo cumplir las instrucciones del o de los fideicomitentes establecidas en el acto constitutivo del fideicomiso."]
+              },
+              {
+                "tag": "Fideicomitido",
+                "patterns": ["Fideicomitido", "Que es el Fideicomitido"],
+                "responses": ["El patrimonio fideicomitido está constituido por los bienes o derechos, de naturaleza mobiliaria o inmobiliaria, corporal o incorporal, transferidos para la constitucion de un fideicomiso y por los frutos que estos generen. El patrimonio fideicomitido es distinto al patrimonio del fideicomitente, del fiduciario, del fideicomisario o beneficiario o de cualquier otro patrimonio fideicomitido administrado por el fiduciario."]
+              },
+              {
+                "tag": "Fideicomitente",
+                "patterns": ["Fideicomitente", "Que es el Fideicomitente"],
+                "responses": ["Corresponde a la persona fisica o juridica que transfiere derechos de propiedad u otros derechos reales o personales al o a los fiduciarios para la constitucion del fideicomiso."]
+              },
+              {
+                "tag": "Fideicomisario o beneficiario",
+                "patterns": ["Fideicomisario o beneficiario", "que es el fideicomisario", "Que es el beneficiario"],
+                "responses": ["El fideicomisario es el destinatario final de los bienes fideicomitidos, una vez cumplido el plazo o la condicion estipulada en el acto constitutivo. Mientras que el beneficiario es quien recibe los beneficios de la administracion fiduciaria, sin necesariamente ser la destinataria final de los bienes fideicomitidos."]
+              },
+              {
+                "tag": "Definicion y funcionamiento de un certificado de deposito",
+                "patterns": ["Definicion y funcionamiento de un certificado de deposito", "Que es un certificado de deposito", "Funcionamiento de un certificado de deposito"],
+                "responses": ["El certificado de deposito, certificado financiero o deposito a plazo fijo es un instrumento de inversion ofrecido por las instituciones financieras para captar recursos por un tiempo determinado, comercializar con el, y rendir parte de las ganancias con quien lo abre en dicha institucion. En Republica Dominicana tienes la posibilidad de invertir en certificados de deposito en pesos, dolares y euros. \n\nCuando abres un certificado de deposito te comprometes a dejar un monto de tus ahorros por un plazo determinado sin retirarlos, por lo cual la institucion te otorgará una tasa de interes fija y mayor a la ofrecida por una cuenta de ahorros. Dependiendo del monto y el plazo elegidos, la tasa de interes puede ser mayor o menor. Los intereses serán generados mensualmente y podrás elegir que estos sean capitalizados (sumados al capital) o credito a cuenta (depositados a tu cuenta de ahorros). \n\n Si al finalizar el periodo pautado no cancelas el certificado de deposito, este se renovará automáticamente por el mismo plazo. En cuanto a la tasa de interes, esta se ajustará a las condiciones del mercado, aunque normalmente solo si estás empeoran. Por esta razon, al momento de renovar es recomendable visitar la institucion para negociar la tasa en caso de que las ofrecidas en ese momento sean más altas."]
+              },
+              {
+                "tag": "Monedas disponibles para abrir un certificado de deposito",
+                "patterns": ["Monedas disponibles para abrir un certificado de deposito"],
+                "responses": ["En Republica Dominicana tienes la posibilidad de abrir un certificado de deposito en pesos, dolares o euros. \n\n¿Cuál te conviene más? Eso va a depender de para que lo quieras y para cuando vayas a utilizar el dinero. Si lo que estás buscando es amasar dinero para el futuro guardando la estabilidad cambiaria, entonces un certificado en moneda extranjera es una buena opcion. \n\nSi por el contrario, lo que buscas es tener beneficios más a corto plazo, independientemente de lo que pueda pasar con la tasa cambiaria, entonces la moneda local te puede servir. \n\nPor regla general los certificados en moneda extranjera ofrecen menor rentabilidad y suelen requerir montos más altos de inversion. Sin embargo, proveen de ciertos niveles de estabilidad y te permiten guardar valor."]
+              },
+              {
+                "tag": "Pago de intereses de un certificado de deposito",
+                "patterns": ["Pago de intereses de un certificado de deposito"],
+                "responses": ["Los intereses que genera un certificado de deposito serán calculados cada mes y podrás elegir que el pago de los mismo sea capitalizable o credito a cuenta. Los intereses capitalizados serán sumados al capital invertido por lo que el proximo mes los intereses serán calculados por el nuevo monto y por ende se generarán más intereses. Mientras que los intereses pagados credito a cuenta serán depositados a tu cuenta de ahorros mensualmente de modo que puedas utilizarlos sin esperar el vencimiento del certificado."]
+              },
+              {
+                "tag": "Definicion de un Producto estructurado.",
+                "patterns": ["Definicion de un Producto estructurado."],
+                "responses": ["Los productos estructurados abarcan distintas operaciones financieras, principalmente los acuerdos de recompra, donde el vendedor de un activo financiero, tipicamente un bono de deuda, se compromete a volver a comprarlo al adquirente, en una fecha y a un precio predeterminados, establecidos en el contrato. La ganancia para el inversionista está en la diferencia entre el precio de venta y el de compra acordados. \n\nEstos son ofrecidos en el mercado de valores por los Puestos de bolsa y está pensado para inversiones a corto plazo, con plazos que suelen ir desde 30 dias hasta 1 año. Tipicamente, estos no pueden ser cancelados antes del vencimiento del plazo acordado y son ofrecidos en dos tipos: SBB y SBB con Mutuo."]
+              },
+              {
+                "tag": "Mercado primario",
+                "patterns": ["Mercado primario", "Que es el mercado primario"],
+                "responses": ["El mercado primario es el sector del mercado de valores donde ocurre la venta inicial de valores directamente por los emisores."]
+              },
+              {
+                "tag": "Mercado secundario",
+                "patterns": ["Mercado secundario", "Que es el Mercado secundario"],
+                "responses": ["El mercado secundario es en el cual se comercializan los titulos previamente emitidos y colocados en el mercado primario."]
+              },
+              {
+                "tag": "Administradora de Fondos de Inversion (AFI)",
+                "patterns": ["Administradora de Fondos de Inversion (AFI)", "Que es la (AFI)", "Que es la administradora de fondos de inversionres"],
+                "responses": ["Las Sociedades Administradoras de Fondos de Inversion de la Republica Dominicana (SAFI) son entidades autorizadas por la Superintendencia del Mercado de Valores (SIMV) para crear y administrar Fondos de Inversiones. Pueden tener varios fondos administrados, cada uno con su propia estrategia de inversion. \n\nLas SAFI pueden desarrollar fondos de inversion en certificados o en valores de oferta publica (acciones, bonos, etc.) pero tambien pueden crear fondos con activos fuera del ámbito del mercado de valores. Las SAFI pueden desarrollar fondos de inversiones para invertir en empresas privadas, en proyectos inmobiliarios, en activos inmobiliarios, en carteras de prestamos, entre otros."]
+              },
+              {
+                "tag": "Ley del mercado de valores vigente",
+                "patterns": ["Ley del mercado de valores vigente"],
+                "responses": ["La ley No. 249-17, promulgada en el año 2017, establece el regimen regulatorio vigente del Mercado de Valores de la Republica Dominicana."]
+              },
+              {
+                "tag": "Deposito centralizado de valores",
+                "patterns": ["Deposito centralizado de valores"],
+                "responses": ["Entidad facultada para crear y llevar el libro contable que conforma el registro de propiedad de los valores entregados en deposito, mediante el cual se instrumenta el sistema de anotacion en cuenta. En el mercado de dominicano este servicio es ofrecido por Cevaldom."]
+              },
+              {
+                "tag": "Bolsa de valores",
+                "patterns": ["Bolsa de valores", "Que es la bolsa de valores"],
+                "responses": ["Mecanismo centralizado de negociacion que tiene por objeto prestar todos los servicios necesarios para la realizacion eficaz de transacciones con instrumentos de valores de manera continua y ordenadas, asi como efectuar actividades y servicios relacionados al desarrollo del mercado de valores, previa aprobacion de la Superintendencia del Mercado de Valores"]
+              },
+              {
+                "tag": "Emisor de valores",
+                "patterns": ["Emisor de valores", "Que es el emisor de valores"],
+                "responses": ["Los emisores de valores son empresas que buscan crecer y financiarse mediante una oferta publica en el mercado bursátil, al emitir valores de deuda o de capital. Pueden ser entidades del estado o empresas privadas, pero es el emisor quien respalda la inversion. Por ejemplo, si inviertes en titulos de deuda del estado, el está obligado a pagarle el capital e intereses al inversionista. \n\nLa emision de valores permite la obtencion de financiamiento a menor costo, diversificacion de las fuentes de recursos, promueve una cultura de planificacion para una administracion más eficiente y eficaz, estimula la disciplina y el manejo profesional, entre otros."]
+              },
+
+              {
+                "tag": "Bonos corporativos",
+                "patterns": ["¿Que son los bonos corporativos?"],
+                "responses": ["Los bonos corporativos son titulos de deuda emitidos por empresas para financiar sus operaciones y proyectos."]
+              },
+              {
+                "tag": "Bonos municipales",
+                "patterns": ["¿Que son los bonos municipales?"],
+                "responses": ["Los bonos municipales son titulos de deuda emitidos por gobiernos locales para financiar proyectos publicos."]
+              },
+              {
+                "tag": "Bonos basura",
+                "patterns": ["¿Que son los bonos basura?"],
+                "responses": ["Los bonos basura son titulos de deuda con alto riesgo de impago y por lo tanto ofrecen altos rendimientos."]
+              },
+              {
+                "tag": "Subasta de bonos",
+                "patterns": ["¿Que es una subasta de bonos?"],
+                "responses": ["Una subasta de bonos es un proceso mediante el cual el gobierno o empresas venden bonos al mejor postor."]
+              },
+              {
+                "tag": "Eurobonos",
+                "patterns": ["¿Que son los Eurobonos?"],
+                "responses": ["Los Eurobonos son bonos emitidos fuera del pais en cuya moneda se denominan, y se colocan internacionalmente."]
+              },
+              {
+                "tag": "Divisas",
+                "patterns": ["¿Que son las divisas?"],
+                "responses": ["Las divisas son monedas extranjeras utilizadas como medio de intercambio internacional."]
+              },
+              {
+                "tag": "Tipo de cambio",
+                "patterns": ["¿Que es el tipo de cambio?"],
+                "responses": ["El tipo de cambio es el precio relativo de una moneda frente a otra, determinado por el mercado de divisas."]
+              },
+              {
+                "tag": "Hiperinflacion",
+                "patterns": ["¿Que es la hiperinflacion?"],
+                "responses": ["La hiperinflacion es un aumento descontrolado y extremo de los precios en una economia, erosionando el valor de la moneda de manera rápida y drástica."]
+              },
+              {
+                "tag": "Ajuste por inflacion",
+                "patterns": ["¿Que es el ajuste por inflacion?"],
+                "responses": ["El ajuste por inflacion es un proceso contable que corrige los estados financieros para reflejar los efectos de la inflacion en el poder adquisitivo."]
+              },
+              {
+                "tag": "Desinflacion",
+                "patterns": ["¿Que es la desinflacion?"],
+                "responses": ["La desinflacion es la reduccion gradual de la tasa de inflacion, es decir, una disminucion en el ritmo al que los precios aumentan."]
+              },
+              {
+                "tag": "Economia de escala",
+                "patterns": ["¿Que es la economia de escala?"],
+                "responses": ["La economia de escala se refiere a la reduccion de costos unitarios que una empresa obtiene al aumentar la produccion o la escala de operaciones."]
+              },
+              {
+                "tag": "Economia de alcance",
+                "patterns": ["¿Que es la economia de alcance?"],
+                "responses": ["La economia de alcance se refiere a la reduccion de costos que una empresa obtiene al producir multiples productos usando recursos comunes."]
+              },
+              {
+                "tag": "Valor temporal del dinero",
+                "patterns": ["¿Que es el valor temporal del dinero?"],
+                "responses": ["El valor temporal del dinero es el concepto financiero que establece que el dinero disponible en el presente es más valioso que la misma cantidad en el futuro, debido a su capacidad de generar rendimientos o intereses."]
+              },
+              {
+                "tag": "superintendencia_bancos",
+                "patterns": ["¿Que es la Superintendencia de Bancos?"],
+                "responses": ["De acuerdo al Articulo 19 de la Ley No. 183–02, Mon­e­taria y Financiera del 21 de noviembre de 2002, la Super­in­ten­den­cia de Ban­cos tiene por fun­cion: “realizar, con plena autonomia fun­cional, la super­vision de las enti­dades de inter­me­diacion financiera, con el objeto de ver­i­ficar el cumplim­iento por parte de dichas enti­dades de lo dis­puesto en esta Ley, Reglamen­tos, Instruc­tivos y Cir­cu­lares; requerir la con­sti­tu­cion de pro­vi­siones para cubrir ries­gos; exi­gir la reg­u­lar­izacion de los incumplim­ien­tos a las dis­posi­ciones legales y reglamen­tarias vigentes; e imponer las cor­re­spon­di­entes san­ciones, a excep­cion de las que aplique el Banco Cen­tral en vir­tud de la citada ley."]
+            
+              },
+              {
+                "tag": ["prestaciones_laborales"],
+                "patterns": ["¿Que son las prestaciones laborales?", "prestaciones laborables"],
+                "responses": ["Todo trabajador en Republica Dominicana tiene el derecho y la obligacion de estar afiliado a una AFP o administradora de fondos de pensiones, asi como al SFS o Seguro Familiar de Salud. Tal como lo indica la Ley de Seguridad Social (87-01), el Sistema Dominicano de Seguridad Social (SDSS) se basa en un sistema unico de afiliacion, cotizacion, plan de beneficios y prestaciones de servicios. Igualmente sucede con el registro previsional, que integra a los beneficiarios de todas las cajas y planes de pension existentes. Una vez que te encuentras afiliado, realizarás un aporte mensual para ambas prestaciones. Este monto por prestaciones sociales es un pequeño porcentaje que se deduce de tu salario ordinario y bonificaciones (no se incluyen las horas extras). Otra parte del aporte lo realiza tu empleador o patrono. Estos fondos son recaudados y administrados por la Tesoreria de la Seguridad Social (TSS)."]
+              },
+              {
+                  "tag":["tipos_prestaciones_laborales"],
+                  "patters":["¿Que tipos de prestaciones laborales existen?", "tipos prestaciones laborales"],
+                  "responses":[
+                    "1. Salario\nEl pago regular que el empleado recibe por su trabajo. Puede ser semanal, quincenal o mensual.\n\n2. Vacaciones\nLos empleados tienen derecho a un periodo de vacaciones remuneradas de 14 dias laborables por cada año de servicio continuo. Despues de cinco años de servicio continuo, el empleado tiene derecho a 18 dias laborables de vacaciones.\n\n3. Doble Sueldo (Salario de Navidad)\nLos empleados tienen derecho a un salario adicional en el mes de diciembre, conocido como 'decimo tercer salario' o 'salario de Navidad'. Este es equivalente a una doceava parte del salario devengado durante el año calendario.\n\n4. Participacion en las Utilidades (Bonificacion)\nLas empresas deben distribuir el 10% de sus beneficios netos anuales entre sus empleados. Este monto se divide entre todos los empleados en proporcion al salario devengado durante el año. La bonificacion tiene un tope máximo equivalente a 45 dias de salario para empleados ordinarios y 60 dias de salario para empleados de larga duracion.\n\n5. Preaviso\nEn caso de terminacion del contrato de trabajo sin causa justificada, el empleador debe dar un preaviso al empleado. La duracion del preaviso depende del tiempo que el empleado ha trabajado en la empresa:\n\nDe 3 a 6 meses: 7 dias de preaviso.\nDe 6 meses a un año: 14 dias de preaviso.\nMás de un año: 28 dias de preaviso.\n\n6. Cesantia\nSi un empleado es despedido sin causa justificada despues de haber trabajado por más de tres meses, tiene derecho a una indemnizacion por cesantia. El monto de la cesantia depende del tiempo de servicio:\n\nDe 3 a 6 meses: 6 dias de salario.\nDe 6 meses a un año: 13 dias de salario.\nDe 1 a 5 años: 21 dias de salario por cada año de servicio.\nMás de 5 años: 23 dias de salario por cada año de servicio.\n\n7. Subsidio por Enfermedad y Maternidad\nLas trabajadoras tienen derecho a un permiso de maternidad de 14 semanas (6 semanas antes del parto y 8 semanas despues). Durante este periodo, la Seguridad Social cubre un porcentaje del salario de la empleada. Los empleados tambien tienen derecho a subsidios por enfermedad que cubren una parte de su salario durante el tiempo que esten incapacitados para trabajar.\n\n8. Seguro Familiar de Salud (SFS)\nParte de la Seguridad Social, el SFS proporciona cobertura medica a los empleados y sus dependientes. Tanto el empleador como el empleado contribuyen a este seguro.\n\n9. Administradora de Fondos de Pensiones (AFP)\nLos empleados y empleadores contribuyen a un fondo de pensiones que asegura una pension de jubilacion para el empleado al final de su vida laboral.\n\n10. Otros Beneficios\nDependiendo de la empresa y del contrato individual, pueden existir otros beneficios como bonos de desempeño, transporte, alimentacion, educacion, entre otros.\n\nEstas prestaciones laborales están diseñadas para proteger los derechos de los empleados y asegurar un ambiente de trabajo justo y equitativo. Es importante que tanto empleadores como empleados conozcan y respeten estas disposiciones legales."]
+                  },
+                  {
+                    "tag": ["Productos Financieros"],
+                    "patterns": ["¿Que productos financieros están disponibles en la Republica Dominicana?",
+                        "Productos financieros en RD",
+                        "¿Cuáles son los productos financieros en la Republica Dominicana?",
+                        "Diferentes tipos de productos financieros en RD",
+                        "Servicios financieros disponibles en la Republica Dominicana"],
+                    "responses": ["1. Cuentas de Ahorro\nOfrecen la posibilidad de depositar dinero y obtener intereses sobre el saldo.\n\n2. Cuentas Corrientes\nPermiten la gestion diaria del dinero, con facilidades de cheques y tarjetas de debito.\n\n3. Prestamos Personales\nCreditos otorgados a individuos para diversos propositos, como la compra de bienes o la consolidacion de deudas.\n\n4. Prestamos Hipotecarios\nFinanciamiento a largo plazo para la adquisicion de viviendas.\n\n5. Tarjetas de Credito\nLineas de credito rotativo que permiten a los usuarios realizar compras y pagar a plazos.\n\n6. Certificados de Deposito\nInversiones a plazo fijo que ofrecen un interes garantizado.\n\n7. Inversiones en Fondos Mutuos\nPermiten a los inversionistas diversificar su capital en una cartera gestionada profesionalmente.\n\n8. Seguros\nProductos financieros que proporcionan cobertura contra riesgos especificos, como seguros de vida, salud, vehiculos y propiedades.\n\nEstos productos financieros están diseñados para satisfacer diversas necesidades economicas y están disponibles a traves de diferentes instituciones financieras en la Republica Dominicana."]
+                },
+                {
+                  "tag": ["Tipos de Instituciones Financieras"],
+                  "patterns": [
+                      "¿Que tipos de instituciones financieras existen en la Republica Dominicana?",
+                      "Tipos de instituciones financieras en RD",
+                      "¿Cuáles son las instituciones financieras en la Republica Dominicana?",
+                      "Diferentes tipos de instituciones financieras en RD",
+                      "Clasificacion de instituciones financieras en la Republica Dominicana"
+                  ],
+                  "responses": [
+                      "1. Bancos Comerciales\nInstituciones que ofrecen servicios financieros como cuentas de ahorro, cuentas corrientes, prestamos y tarjetas de credito a individuos y empresas.\n\n2. Asociaciones de Ahorros y Prestamos\nInstituciones dedicadas a fomentar el ahorro y proporcionar financiamiento hipotecario para la adquisicion de viviendas.\n\n3. Bancos de Desarrollo\nInstituciones que financian proyectos de desarrollo economico y social, con enfasis en sectores productivos.\n\n4. Corporaciones de Credito\nEntidades que otorgan financiamiento a empresas y proyectos especificos, generalmente a mediano y largo plazo.\n\n5. Casas de Cambio\nEstablecimientos que se dedican a la compra y venta de divisas extranjeras.\n\n6. Cooperativas de Ahorro y Credito\nOrganizaciones financieras sin fines de lucro que proporcionan servicios financieros a sus miembros.\n\n7. Financieras\nEntidades que ofrecen creditos y prestamos a individuos y empresas, aunque no tienen la capacidad de captar depositos como los bancos comerciales.\n\n8. Bancos de Ahorro y Credito\nInstituciones que captan recursos del publico y otorgan creditos, enfocándose en sectores especificos como el microcredito.\n\nEstas instituciones están reguladas por la Superintendencia de Bancos de la Republica Dominicana para asegurar la estabilidad y transparencia del sistema financiero."
+                  ]
+              },{
+                "tag": ["Cálculo de Impuestos"],
+                "patterns": [
+                    "¿Como calcular los impuestos sobre la renta en Republica Dominicana?",
+                    "¿Cuáles son las tasas de impuestos sobre la renta en RD?",
+                    "¿Como se determina el monto de impuestos a pagar en RD?",
+                    "¿Que impuestos debo pagar en Republica Dominicana?",
+                    "¿Como se calcula el ISR en RD?",
+                    "¿Que deducciones puedo hacer para calcular mis impuestos en RD?",
+                    "¿Cuál es el salario exento de impuestos en RD?",
+                    "¿Como funciona el sistema de impuestos sobre la renta en Republica Dominicana?",
+                    "¿Cuánto debo pagar de impuestos si gano X cantidad en RD?",
+                    "¿Cuál es el porcentaje de impuestos sobre la renta en RD?"
+                ],
+                "responses": [
+                    "Para calcular los impuestos sobre la renta en la Republica Dominicana, sigue estos pasos:\n\n1. Determina el ingreso bruto anual del empleado.\n\n2. Resta las deducciones permitidas, como el salario exento (RD$416,220 anuales para el año fiscal 2024).\n\n3. Aplica las tasas impositivas segun los tramos de ingresos:\n\n   - Ingresos anuales hasta RD$416,220: Exento\n   - Ingresos anuales desde RD$416,220.01 hasta RD$624,329: 15% del excedente de RD$416,220\n   - Ingresos anuales desde RD$624,329.01 hasta RD$867,123: RD$31,216.35 más el 20% del excedente de RD$624,329\n   - Ingresos anuales desde RD$867,123.01 en adelante: RD$79,776.85 más el 25% del excedente de RD$867,123\n\n4. Calcula el monto de impuestos a pagar basado en las tasas aplicables.\n\n5. Ejemplo de cálculo:\n\n   - Supongamos que un empleado tiene un ingreso bruto anual de RD$1,000,000.\n   - La porcion exenta es RD$416,220.\n   - El ingreso gravable es RD$1,000,000 - RD$416,220 = RD$583,780.\n   - La porcion entre RD$416,220.01 y RD$624,329 es RD$208,109, que se grava al 15%: RD$208,109 x 0.15 = RD$31,216.35.\n   - La porcion entre RD$624,329.01 y RD$867,123 es RD$242,794, que se grava al 20%: RD$242,794 x 0.20 = RD$48,558.80.\n   - La porcion superior a RD$867,123 es RD$132,877, que se grava al 25%: RD$132,877 x 0.25 = RD$33,219.25.\n   - La suma de impuestos es RD$31,216.35 + RD$48,558.80 + RD$33,219.25 = RD$112,994.40.\n\n   Por lo tanto, el impuesto anual a pagar seria RD$112,994.40.\n\nEs importante consultar las tablas de impuestos actualizadas y cualquier cambio en las leyes fiscales vigentes para obtener un cálculo preciso."
+                ]
+            },{
+              "tag": "Marco Legal y Normativo",
+              "patterns": [
+                  "¿Que leyes y regulaciones contables existen en RD?",
+                  "¿Cuál es el marco legal de la contabilidad en Republica Dominicana?",
+                  "¿Que normas contables debo conocer en RD?"
+              ],
+              "responses": [
+                  "Conocer las leyes y regulaciones que rigen la contabilidad en la Republica Dominicana es fundamental. Esto incluye el Codigo de Comercio, que establece las normas generales para la contabilidad y las obligaciones de los comerciantes. La Ley 11-92 (Codigo Tributario) define las obligaciones fiscales de las empresas y requiere el uso de principios contables aceptados. Además, la Republica Dominicana ha adoptado las Normas Internacionales de Informacion Financiera (NIIF), que aseguran que los estados financieros sean comparables y de alta calidad."
+              ]
+          },
+          {
+              "tag": "Estados Financieros",
+              "patterns": [
+                  "¿Que son los estados financieros?",
+                  "¿Como se preparan los estados financieros en RD?",
+                  "¿Cuáles son los principales estados financieros?"
+              ],
+              "responses": [
+                  "Es crucial entender la preparacion y presentacion de estados financieros, que incluyen:\n\n1. Estado de Situacion Financiera (Balance General): Muestra los activos, pasivos y patrimonio de la empresa en una fecha especifica.\n\n2. Estado de Resultados: Presenta los ingresos, costos y gastos para determinar la ganancia o perdida neta durante un periodo determinado.\n\n3. Estado de Cambios en el Patrimonio: Detalla los cambios en el patrimonio de los propietarios durante el periodo contable.\n\n4. Estado de Flujos de Efectivo: Muestra las entradas y salidas de efectivo durante el periodo contable.\n\n5. Notas a los Estados Financieros: Proporcionan informacion adicional y detallada sobre las cifras presentadas en los estados financieros."
+              ]
+          },
+          {
+              "tag": "Impuestos y Obligaciones Fiscales",
+              "patterns": [
+                  "¿Que impuestos deben pagar las empresas en RD?",
+                  "¿Cuáles son las obligaciones fiscales en Republica Dominicana?",
+                  "¿Como se calculan los impuestos en RD?"
+              ],
+              "responses": [
+                  "Aprender sobre los diferentes impuestos y obligaciones fiscales en la Republica Dominicana es esencial para el cumplimiento legal. Esto incluye:\n\n1. Impuesto Sobre la Renta (ISR): Las empresas deben calcular y pagar el ISR sobre sus ganancias netas. La tasa del ISR varia segun el tipo de empresa y el nivel de ingresos.\n\n2. Impuesto sobre Transferencias de Bienes Industrializados y Servicios (ITBIS): Similar al IVA en otros paises, las empresas deben cobrar el ITBIS en sus ventas y servicios y pueden deducir el ITBIS pagado en sus compras.\n\n3. Otras Obligaciones Fiscales: Incluyen el Impuesto a los Activos, Retenciones de ISR e ITBIS, y Contribuciones a la Seguridad Social."
+              ]
+          },
+          {
+              "tag": "Contabilidad de Costos",
+              "patterns": [
+                  "¿Que es la contabilidad de costos?",
+                  "¿Como se calcula el costo de produccion?",
+                  "¿Que es el costeo ABC?"
+              ],
+              "responses": [
+                  "Estudiar la contabilidad de costos ayuda a las empresas a gestionar y controlar sus gastos. Los aspectos clave incluyen:\n\n1. Costo de Produccion: Las empresas manufactureras deben calcular los costos de produccion, que incluyen materiales directos, mano de obra directa y costos indirectos de fabricacion.\n\n2. Costeo ABC (Activity-Based Costing): Metodo que asigna costos indirectos a productos y servicios basándose en las actividades que generan dichos costos. Esto proporciona una vision más precisa de los costos verdaderos de produccion."
+              ]
+          },
+          {
+              "tag": "Auditoria y Control Interno",
+              "patterns": [
+                  "¿Que es una auditoria externa?",
+                  "¿Por que es importante el control interno?",
+                  "¿Cuáles son las normas de auditoria en RD?"
+              ],
+              "responses": [
+                  "Comprender la importancia de la auditoria y el control interno es vital para mantener la integridad financiera. Esto incluye:\n\n1. Auditoria Externa: Las empresas están obligadas a someter sus estados financieros a una auditoria externa anual realizada por contadores publicos autorizados. Esto asegura la transparencia y exactitud de los estados financieros.\n\n2. Control Interno: Las empresas deben implementar sistemas de control interno para asegurar la integridad de su informacion financiera y operativa, prevenir fraudes y garantizar el cumplimiento de las politicas y procedimientos."
+              ]
+          },
+          {
+              "tag": "Tecnologia en la Contabilidad",
+              "patterns": [
+                  "¿Que tecnologias se usan en contabilidad?",
+                  "¿Que es la facturacion electronica?",
+                  "¿Como mejora la tecnologia la contabilidad?"
+              ],
+              "responses": [
+                  "Familiarizarse con las tecnologias usadas en contabilidad puede mejorar significativamente la eficiencia y precision. Esto incluye:\n\n1. Sistemas de Contabilidad Computarizada: Las empresas utilizan software de contabilidad para llevar registros precisos y facilitar la preparacion de informes financieros.\n\n2. Facturacion Electronica: La Direccion General de Impuestos Internos (DGII) está promoviendo la implementacion de la facturacion electronica para mejorar la eficiencia y reducir la evasion fiscal. Este sistema permite a las empresas emitir y recibir facturas electronicas de manera segura y eficiente."
+              ]
+          },
+          {
+              "tag": "Educacion y Capacitacion Continua",
+              "patterns": [
+                  "¿Como me convierto en contador en RD?",
+                  "¿Que certificaciones necesito para ser contador?",
+                  "¿Por que es importante la educacion continua en contabilidad?"
+              ],
+              "responses": [
+                  "Reconocer la importancia de la formacion profesional en contabilidad es esencial para mantenerse actualizado y competente. Los aspectos clave incluyen:\n\n1. Formacion Profesional: Los contadores en la Republica Dominicana deben obtener un titulo universitario en contabilidad y certificaciones adicionales del Instituto de Contadores Publicos Autorizados de la Republica Dominicana (ICPARD).\n\n2. Actualizacion Continua: Los profesionales contables deben participar en programas de educacion continua para mantenerse actualizados con las ultimas normas y prácticas contables, asegurando que su conocimiento y habilidades se mantengan relevantes en un entorno en constante cambio."
+              ]
+          }
+      ]
+            
+  
+}
