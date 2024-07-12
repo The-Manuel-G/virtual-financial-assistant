@@ -22,20 +22,23 @@ Financial Mentor es un asistente virtual financiero que ofrece soluciones rápid
 7. [Agradecimientos](#Agradecimientos)
 
 
-* Nombre del proyecto
+* Financial Mentor
 
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
 
-* Arquitectura del proyecto + imagen
 
-* Proceso de desarrollo:
+* Arquitectura:
 
--Fuente del dataset
--Limpieza de datos (img que lo valide)
--Manejo excepciones/control errores
--¿Qué modelo de Machine Learning están usando?
--Estadísticos (Valores, gráficos, …)
--Métrica(s) de evaluación del modelo
+
+-nltk
+-json
+-pickle
+-numpy
+-tensorflow
+-keras
+-random
+-itertools
+
+
 
 * Funcionalidades extra:
 
