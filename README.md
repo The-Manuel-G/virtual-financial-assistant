@@ -26,7 +26,8 @@ Financial Mentor es un asistente virtual financiero que ofrece soluciones rápid
 
 
 
-* Arquitectura:
+
+# Librerias 
 
 
 - nltk
