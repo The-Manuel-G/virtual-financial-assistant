@@ -29,28 +29,17 @@ Financial Mentor es un asistente virtual financiero que ofrece soluciones rápid
 * Arquitectura:
 
 
--nltk
--json
--pickle
--numpy
--tensorflow
--keras
--random
--itertools
+- nltk
+- json
+- pickle
+- numpy
+- tensorflow
+- keras
+- random
+- itertools
 
 
 
-* Funcionalidades extra:
-
-Ejem 1: Implementación de chatbot
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
 
  Integración del proyecto en una pág web
 ## Getting Started
