@@ -49,17 +49,31 @@ Ejem 1: Implementación de chatbot
 - Estadísticos (Valores, gráficos, …)
 - Métrica(s) de evaluación del modelo
 
-Ejem 2: Integración del proyecto en una pág web
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+ Integración del proyecto en una pág web
+## Getting Started
+Utilizamos next.js 14 app router para Front   End 
 
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+```bash
+npm install
 
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+```
+First, run the development server:
 
-Ejem …: …
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+
+
 - Tecnología/Herramientas usadas …
+- react
+- Typescrit
+- Next.js
+- supabase para la base de datos
+  
